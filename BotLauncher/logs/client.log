@@ -1,0 +1,449 @@
+[08:55:29.958][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[08:55:34.937][INFO][D][1] App started
+[08:55:34.936][INFO][f][38] WebSocket Connected!
+[08:55:34.959][INFO][i][19] Logged in as 'Roflz'
+[08:55:37.038][INFO][f][47] Starting new Bot1
+[08:55:37.047][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[08:55:37.330][INFO][i][48] Loading hooks
+[08:55:39.229][INFO][i][48] Using local gamepack(200)
+[08:56:07.896][INFO][Pro Fighter][74] Starting Pro Fighter
+[08:56:08.968][INFO][RandomHandler][74] Starting random: Login
+[08:56:08.967][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[08:56:09.002][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[08:56:10.828][INFO][Pro Fighter][68] Completed Setup. Starting...
+[08:56:25.961][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[08:56:25.972][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[09:20:16.084][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[09:20:20.183][INFO][f][38] WebSocket Connected!
+[09:20:20.183][INFO][D][1] App started
+[09:20:20.208][INFO][i][19] Logged in as 'Roflz'
+[09:20:21.779][INFO][f][47] Starting new Bot1
+[09:20:21.787][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[09:20:22.053][INFO][i][48] Loading hooks
+[09:20:23.945][INFO][i][48] Using local gamepack(200)
+[09:20:48.510][INFO][Pro Fighter][68] Starting Pro Fighter
+[09:20:49.552][INFO][Pro Fighter][47] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[09:20:49.553][INFO][RandomHandler][68] Starting random: Login
+[09:20:49.579][INFO][Pro Fighter][47] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[09:20:51.449][INFO][Pro Fighter][47] Completed Setup. Starting...
+[09:20:57.747][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[09:20:57.755][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[09:42:24.525][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[09:42:29.051][INFO][D][1] App started
+[09:42:29.050][INFO][f][38] WebSocket Connected!
+[09:42:29.073][INFO][i][19] Logged in as 'Roflz'
+[09:42:30.808][INFO][f][47] Starting new Bot1
+[09:42:30.816][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[09:42:31.064][INFO][i][48] Loading hooks
+[09:42:32.859][INFO][i][48] Using local gamepack(200)
+[09:43:01.931][INFO][Pro Fighter][68] Starting Pro Fighter
+[09:43:03.062][INFO][RandomHandler][68] Starting random: Login
+[09:43:03.061][INFO][Pro Fighter][131] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[09:43:03.089][INFO][Pro Fighter][131] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[09:43:05.025][INFO][Pro Fighter][131] Completed Setup. Starting...
+[09:43:11.252][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[09:43:11.261][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[09:43:11.994][INFO][RandomHandler][68] Starting random: Login
+[09:43:12.512][INFO][i][131] Generated path in 1094ms
+[09:43:16.280][INFO][Pro Fighter][131] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
+[09:43:18.290][INFO][Pro Fighter][131] Met Training Goal: 10 Strength
+[09:43:18.299][INFO][i][131] Navigating to [3202, 3292, 0]
+[09:43:19.197][INFO][i][131] Generated path in 891ms
+[09:43:27.853][INFO][Pro Fighter][19] Script stopped, reason: stopped by user
+[09:43:28.232][INFO][RandomHandler][68] Stopped
+[09:46:37.550][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[09:46:41.751][INFO][f][38] WebSocket Connected!
+[09:46:41.752][INFO][D][1] App started
+[09:46:41.775][INFO][i][19] Logged in as 'Roflz'
+[09:46:43.394][INFO][f][47] Starting new Bot1
+[09:46:43.401][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[09:46:43.675][INFO][i][48] Loading hooks
+[09:46:46.238][INFO][i][48] Using local gamepack(200)
+[09:47:14.853][INFO][Pro Fighter][75] Starting Pro Fighter
+[09:47:16.057][INFO][RandomHandler][75] Starting random: Login
+[09:47:16.056][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[09:47:16.092][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[09:47:17.384][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[09:47:18.402][INFO][Pro Fighter][74] Completed Setup. Starting...
+[09:47:21.828][INFO][D][1] App started
+[09:47:21.827][INFO][f][38] WebSocket Connected!
+[09:47:21.856][INFO][i][19] Logged in as 'Roflz'
+[09:47:23.448][INFO][f][47] Starting new Bot1
+[09:47:23.456][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[09:47:23.663][INFO][i][48] Loading hooks
+[09:47:24.784][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[09:47:24.794][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[09:47:24.892][INFO][RandomHandler][75] Starting random: Login
+[09:47:25.417][INFO][i][48] Using local gamepack(200)
+[09:47:26.229][INFO][i][74] Generated path in 1144ms
+[09:47:31.293][INFO][Pro Fighter][19] Script stopped, reason: stopped by user
+[09:47:31.483][INFO][RandomHandler][75] Stopped
+[09:47:50.151][INFO][Pro Fighter][69] Starting Pro Fighter
+[09:47:51.258][INFO][RandomHandler][69] Starting random: Login
+[09:47:51.256][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[09:47:51.290][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[09:47:53.211][INFO][Pro Fighter][68] Completed Setup. Starting...
+[09:48:09.602][INFO][i][68] Generated path in 1030ms
+[09:48:09.607][WARN][h][68] No valid path found
+[09:48:15.425][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[09:48:15.434][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[09:48:16.129][INFO][RandomHandler][69] Starting random: Login
+[09:48:16.326][INFO][i][68] Generated path in 904ms
+[09:48:19.770][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
+[09:48:22.564][INFO][Pro Fighter][68] Met Training Goal: 10 Strength
+[09:48:29.133][INFO][Pro Fighter][68] Met Training Goal: 10 Attack
+[09:48:29.136][INFO][Pro Fighter][68] You dont match tasks requirements. Banking.
+[09:48:31.775][INFO][Pro Fighter][68] Met Training Goal: 10 Defence
+[09:48:32.466][INFO][Pro Fighter][68] Met Training Goal: 20 Strength
+[09:48:32.697][INFO][Pro Fighter][68] Met Training Goal: 20 Attack
+[09:48:32.702][INFO][i][68] Navigating to [3202, 3292, 0]
+[09:48:33.627][INFO][i][68] Generated path in 914ms
+[09:49:29.816][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
+[09:49:29.819][INFO][Pro Fighter][68] Met Training Goal: 20 Defence
+[09:58:45.745][INFO][i][68] Generated path in 1116ms
+[09:58:53.738][INFO][i][68] Generated path in 906ms
+[09:59:58.421][INFO][i][68] Generated path in 901ms
+[10:00:12.650][INFO][i][68] Navigating to [3202, 3292, 0]
+[10:00:13.555][INFO][i][68] Generated path in 900ms
+[10:09:21.392][INFO][i][68] Generated path in 1117ms
+[10:09:25.325][INFO][i][68] Generated path in 905ms
+[10:10:30.266][INFO][i][68] Generated path in 970ms
+[10:10:44.273][INFO][i][68] Navigating to [3202, 3292, 0]
+[10:10:45.201][INFO][i][68] Generated path in 921ms
+[10:16:57.700][INFO][i][68] Generated path in 1069ms
+[10:17:59.160][INFO][i][68] Generated path in 888ms
+[10:18:14.594][INFO][i][68] Navigating to [3202, 3292, 0]
+[10:18:15.488][INFO][i][68] Generated path in 889ms
+[10:20:41.473][INFO][i][68] Navigating to [3202, 3292, 0]
+[10:20:42.366][INFO][i][68] Generated path in 888ms
+[10:27:23.929][INFO][i][68] Generated path in 1151ms
+[10:28:35.364][INFO][i][68] Generated path in 922ms
+[10:28:51.104][INFO][i][68] Navigating to [3202, 3292, 0]
+[10:28:52.038][INFO][i][68] Generated path in 928ms
+[10:32:33.261][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[10:32:37.688][INFO][f][37] WebSocket Connected!
+[10:32:37.689][INFO][D][1] App started
+[10:32:37.714][INFO][i][19] Logged in as 'Roflz'
+[10:32:39.413][INFO][f][47] Starting new Bot1
+[10:32:39.423][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[10:32:39.728][INFO][i][48] Loading hooks
+[10:32:41.565][INFO][i][48] Using local gamepack(200)
+[10:33:10.835][INFO][Pro Fighter][69] Starting Pro Fighter
+[10:33:11.954][INFO][RandomHandler][69] Starting random: Login
+[10:33:11.953][INFO][Pro Fighter][119] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[10:33:11.990][INFO][Pro Fighter][119] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[10:33:13.259][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[10:33:13.925][INFO][Pro Fighter][119] Completed Setup. Starting...
+[10:33:17.490][INFO][D][1] App started
+[10:33:17.489][INFO][f][38] WebSocket Connected!
+[10:33:17.516][INFO][i][19] Logged in as 'Roflz'
+[10:33:19.249][INFO][f][47] Starting new Bot1
+[10:33:19.258][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[10:33:19.481][INFO][i][48] Loading hooks
+[10:33:21.133][INFO][i][48] Using local gamepack(200)
+[10:33:26.242][INFO][Pro Fighter][69] Script stopped, reason: You need a members account to login to this world. Please subscribe, or use a different world.
+[10:33:27.333][INFO][RandomHandler][69] Stopped
+[10:33:29.474][INFO][i][119] Generated path in 1056ms
+[10:33:29.479][WARN][h][119] No valid path found
+[10:33:38.166][INFO][i][119] Generated path in 883ms
+[10:33:38.169][WARN][h][119] No valid path found
+[10:33:45.081][STDOUT][61] error_game_js5connect
+[10:33:46.962][INFO][i][119] Generated path in 909ms
+[10:33:46.964][WARN][h][119] No valid path found
+[10:33:53.099][INFO][Pro Fighter][47] Starting Pro Fighter
+[10:33:54.201][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[10:33:54.223][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[10:33:56.122][INFO][Pro Fighter][68] Completed Setup. Starting...
+[10:34:10.842][INFO][i][68] Generated path in 1063ms
+[10:34:10.848][WARN][h][68] No valid path found
+[10:34:38.886][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[10:34:43.177][INFO][D][1] App started
+[10:34:43.176][INFO][f][38] WebSocket Connected!
+[10:34:43.203][INFO][i][19] Logged in as 'Roflz'
+[10:34:44.828][INFO][f][47] Starting new Bot1
+[10:34:44.837][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[10:34:45.036][INFO][i][48] Loading hooks
+[10:34:46.966][INFO][i][48] Using local gamepack(200)
+[10:35:17.112][INFO][Pro Fighter][114] Starting Pro Fighter
+[10:35:18.177][INFO][RandomHandler][114] Starting random: Login
+[10:35:18.176][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[10:35:18.221][INFO][Pro Fighter][68] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[10:35:19.525][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[10:35:20.093][INFO][Pro Fighter][68] Completed Setup. Starting...
+[10:35:23.818][INFO][D][1] App started
+[10:35:23.817][INFO][f][37] WebSocket Connected!
+[10:35:23.843][INFO][i][19] Logged in as 'Roflz'
+[10:35:25.523][INFO][f][47] Starting new Bot1
+[10:35:25.532][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[10:35:25.771][INFO][i][48] Loading hooks
+[10:35:27.738][INFO][i][48] Using local gamepack(200)
+[10:38:01.824][INFO][i][68] Generated path in 1130ms
+[10:38:08.856][INFO][i][68] Generated path in 903ms
+[10:38:08.916][ERROR][A][68] No path link handler for (3207, 3266, 0)->(3208, 3265, 0)
+[10:38:11.831][ERROR][A][68] No path link handler for (3207, 3266, 0)->(3208, 3265, 0)
+[10:38:14.499][ERROR][A][68] No path link handler for (3207, 3266, 0)->(3208, 3265, 0)
+[10:38:21.847][INFO][i][68] Generated path in 3958ms
+[10:38:23.882][INFO][i][68] Generated path in 1528ms
+[10:38:23.940][ERROR][A][68] No path link handler for (3207, 3266, 0)->(3208, 3265, 0)
+[10:38:27.404][ERROR][A][68] No path link handler for (3207, 3266, 0)->(3208, 3265, 0)
+[10:38:29.618][INFO][Pro Fighter][19] Script stopped, reason: stopped by user
+[10:38:29.663][INFO][RandomHandler][69] Stopped
+[11:49:29.084][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[11:49:34.943][INFO][D][1] App started
+[11:49:34.942][INFO][f][38] WebSocket Connected!
+[11:49:34.966][INFO][i][19] Logged in as 'Roflz'
+[11:49:36.916][INFO][f][47] Starting new Bot1
+[11:49:36.924][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[11:49:37.140][INFO][i][48] Loading hooks
+[11:49:38.964][INFO][i][48] Using local gamepack(200)
+[11:50:11.558][INFO][Pro Fighter][109] Starting Pro Fighter
+[11:50:12.868][INFO][RandomHandler][109] Starting random: Login
+[11:50:12.867][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[11:50:12.908][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[11:50:14.248][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[11:50:15.462][INFO][Pro Fighter][74] Completed Setup. Starting...
+[11:50:19.079][INFO][D][1] App started
+[11:50:19.079][INFO][f][38] WebSocket Connected!
+[11:50:19.104][INFO][i][19] Logged in as 'Roflz'
+[11:50:21.023][INFO][f][47] Starting new Bot1
+[11:50:21.032][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[11:50:21.259][INFO][i][48] Loading hooks
+[11:50:23.394][INFO][i][48] Using local gamepack(200)
+[11:50:30.109][INFO][i][74] Generated path in 1393ms
+[11:50:30.114][WARN][h][74] No valid path found
+[11:50:34.786][INFO][i][74] Generated path in 1048ms
+[11:50:34.788][WARN][h][74] No valid path found
+[11:50:35.617][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[11:50:35.623][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[11:50:39.613][INFO][i][74] Generated path in 1056ms
+[11:50:39.616][WARN][h][74] No valid path found
+[11:50:40.177][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
+[11:50:47.550][STDOUT][61] error_game_js5connect
+[11:50:47.725][INFO][i][74] Generated path in 1092ms
+[11:50:47.727][WARN][h][74] No valid path found
+[11:50:52.999][INFO][i][74] Generated path in 1123ms
+[11:50:53.002][WARN][h][74] No valid path found
+[11:50:58.054][INFO][Pro Fighter][19] Script stopped, reason: stopped by user
+[11:50:58.125][INFO][i][74] Generated path in 1062ms
+[11:50:58.127][WARN][h][74] No valid path found
+[11:50:58.524][INFO][RandomHandler][109] Stopped
+[11:50:59.384][INFO][Pro Fighter][67] Starting Pro Fighter
+[11:51:00.776][INFO][Pro Fighter][66] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[11:51:00.805][INFO][Pro Fighter][66] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[11:51:03.197][INFO][Pro Fighter][66] Completed Setup. Starting...
+[11:51:17.741][INFO][i][66] Generated path in 1213ms
+[11:51:17.745][WARN][h][66] No valid path found
+[11:51:24.656][INFO][Pro Fighter][19] Script stopped, reason: stopped by user
+[11:51:24.793][INFO][RandomHandler][67] Stopped
+[11:51:26.247][INFO][i][66] Generated path in 1068ms
+[11:51:26.251][WARN][h][66] No valid path found

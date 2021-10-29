@@ -1,0 +1,1045 @@
+[12:43:12.704][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[12:43:17.001][INFO][j][1] App started
+[12:43:17.001][INFO][H][38] WebSocket Connected!
+[12:43:17.024][INFO][L][19] Logged in as 'Roflz'
+[12:43:18.659][INFO][H][47] Starting new Bot1
+[12:43:18.667][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[12:43:18.859][INFO][L][48] Loading hooks
+[12:43:20.441][INFO][L][48] Using local gamepack(200)
+[12:43:31.565][STDOUT][69] Lets Farm!
+[12:43:31.573][INFO][RandomHandler][69] Starting random: Login
+[12:43:39.639][STDOUT][68] 0
+[12:43:39.644][STDOUT][68] []
+[12:43:39.648][STDOUT][68] 
+[12:43:40.256][INFO][RandomHandler][69] Starting random: Login
+[12:43:43.827][STDOUT][68] Bank
+[12:43:44.340][STDOUT][68] Farm Catherby
+[12:43:44.372][STDOUT][68] 4
+[12:43:44.375][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:43:44.377][STDOUT][68] 4
+[12:43:44.378][STDOUT][68] [null, null, null, null]
+[12:43:45.381][STDOUT][68] Farm Catherby
+[12:43:45.396][STDOUT][68] 4
+[12:43:45.398][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:43:45.400][STDOUT][68] 4
+[12:43:45.401][STDOUT][68] [null, null, null, null]
+[12:43:46.403][STDOUT][68] Farm Catherby
+[12:43:46.413][STDOUT][68] 4
+[12:43:46.415][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:43:46.416][STDOUT][68] 4
+[12:43:46.418][STDOUT][68] [null, null, null, null]
+[12:43:47.420][STDOUT][68] Farm Catherby
+[12:43:47.432][STDOUT][68] 4
+[12:43:47.434][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:43:47.435][STDOUT][68] 4
+[12:43:47.437][STDOUT][68] [null, null, null, null]
+[12:44:05.234][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[12:44:09.467][INFO][j][1] App started
+[12:44:09.467][INFO][H][38] WebSocket Connected!
+[12:44:09.491][INFO][L][19] Logged in as 'Roflz'
+[12:44:11.185][INFO][H][47] Starting new Bot1
+[12:44:11.194][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[12:44:11.412][INFO][L][48] Loading hooks
+[12:44:13.237][INFO][L][48] Using local gamepack(200)
+[12:44:20.089][STDOUT][77] Lets Farm!
+[12:44:20.097][INFO][RandomHandler][77] Starting random: Login
+[12:44:27.957][STDOUT][69] 0
+[12:44:27.963][STDOUT][69] []
+[12:44:27.966][STDOUT][69] 
+[12:44:28.562][INFO][RandomHandler][77] Starting random: Login
+[12:44:32.761][STDOUT][69] Bank
+[12:44:33.267][STDOUT][69] Farm Catherby
+[12:44:33.306][STDOUT][69] 4
+[12:44:33.309][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:33.311][STDOUT][69] 4
+[12:44:33.313][STDOUT][69] [null, null, null, null]
+[12:44:34.317][STDOUT][69] Farm Catherby
+[12:44:34.353][STDOUT][69] 4
+[12:44:34.356][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:34.358][STDOUT][69] 4
+[12:44:34.359][STDOUT][69] [null, null, null, null]
+[12:44:35.362][STDOUT][69] Farm Catherby
+[12:44:35.374][STDOUT][69] 4
+[12:44:35.376][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:35.378][STDOUT][69] 4
+[12:44:35.379][STDOUT][69] [null, null, null, null]
+[12:44:36.380][STDOUT][69] Farm Catherby
+[12:44:36.393][STDOUT][69] 4
+[12:44:36.395][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:36.397][STDOUT][69] 4
+[12:44:36.398][STDOUT][69] [null, null, null, null]
+[12:44:37.401][STDOUT][69] Farm Catherby
+[12:44:37.415][STDOUT][69] 4
+[12:44:37.417][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:37.418][STDOUT][69] 4
+[12:44:37.420][STDOUT][69] [null, null, null, null]
+[12:44:38.422][STDOUT][69] Farm Catherby
+[12:44:38.433][STDOUT][69] 4
+[12:44:38.435][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:38.437][STDOUT][69] 4
+[12:44:38.438][STDOUT][69] [null, null, null, null]
+[12:44:39.440][STDOUT][69] Farm Catherby
+[12:44:39.451][STDOUT][69] 4
+[12:44:39.453][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:39.454][STDOUT][69] 4
+[12:44:39.455][STDOUT][69] [null, null, null, null]
+[12:44:40.457][STDOUT][69] Farm Catherby
+[12:44:40.467][STDOUT][69] 4
+[12:44:40.468][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:40.470][STDOUT][69] 4
+[12:44:40.472][STDOUT][69] [null, null, null, null]
+[12:44:41.473][STDOUT][69] Farm Catherby
+[12:44:41.484][STDOUT][69] 4
+[12:44:41.485][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:41.486][STDOUT][69] 4
+[12:44:41.487][STDOUT][69] [null, null, null, null]
+[12:44:42.488][STDOUT][69] Farm Catherby
+[12:44:42.499][STDOUT][69] 4
+[12:44:42.500][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:42.502][STDOUT][69] 4
+[12:44:42.503][STDOUT][69] [null, null, null, null]
+[12:44:43.504][STDOUT][69] Farm Catherby
+[12:44:43.515][STDOUT][69] 4
+[12:44:43.517][STDOUT][69] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[12:44:43.518][STDOUT][69] 4
+[12:44:43.519][STDOUT][69] [null, null, null, null]
+[12:44:44.519][STDOUT][69] Farm Catherby
+[12:44:44.529][STDOUT][69] 4
+[14:46:45.001][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:46:49.098][INFO][j][1] App started
+[14:46:49.097][INFO][H][38] WebSocket Connected!
+[14:46:49.121][INFO][L][19] Logged in as 'Roflz'
+[14:46:50.691][INFO][H][47] Starting new Bot1
+[14:46:50.698][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:46:50.917][INFO][L][48] Loading hooks
+[14:46:52.570][INFO][L][48] Using local gamepack(200)
+[14:46:55.946][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:47:00.099][INFO][j][1] App started
+[14:47:00.099][INFO][H][38] WebSocket Connected!
+[14:47:00.122][INFO][L][19] Logged in as 'Roflz'
+[14:47:01.672][INFO][H][47] Starting new Bot1
+[14:47:01.679][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:47:01.928][INFO][L][48] Loading hooks
+[14:47:03.778][STDOUT][76] Lets Farm!
+[14:47:03.786][INFO][RandomHandler][76] Starting random: Login
+[14:47:03.979][INFO][L][48] Using local gamepack(200)
+[14:47:09.444][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:47:11.364][STDOUT][68] 0
+[14:47:11.370][STDOUT][68] []
+[14:47:12.577][INFO][RandomHandler][76] Starting random: Login
+[14:47:13.812][INFO][j][1] App started
+[14:47:13.812][INFO][H][38] WebSocket Connected!
+[14:47:13.846][INFO][L][19] Logged in as 'Roflz'
+[14:47:15.945][INFO][H][47] Starting new Bot1
+[14:47:15.953][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:47:16.401][INFO][L][48] Loading hooks
+[14:47:16.803][STDOUT][68] 
+[14:47:17.422][STDOUT][68] Lets Farm!
+[14:47:17.432][INFO][RandomHandler][68] Starting random: Login
+[14:47:18.448][INFO][L][48] Using local gamepack(200)
+[14:47:19.054][STDOUT][68] Bank
+[14:47:19.560][STDOUT][68] Farm Catherby
+[14:47:19.613][STDOUT][68] 4
+[14:47:19.617][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:19.620][STDOUT][68] 4
+[14:47:19.621][STDOUT][68] [null, null, null, null]
+[14:47:20.625][STDOUT][68] Farm Catherby
+[14:47:20.640][STDOUT][68] 4
+[14:47:20.642][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:20.644][STDOUT][68] 4
+[14:47:20.646][STDOUT][68] [null, null, null, null]
+[14:47:21.649][STDOUT][68] Farm Catherby
+[14:47:21.662][STDOUT][68] 4
+[14:47:21.664][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:21.666][STDOUT][68] 4
+[14:47:21.668][STDOUT][68] [null, null, null, null]
+[14:47:22.367][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:47:22.671][STDOUT][68] Farm Catherby
+[14:47:22.685][STDOUT][68] 4
+[14:47:22.688][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:22.690][STDOUT][68] 4
+[14:47:22.692][STDOUT][68] [null, null, null, null]
+[14:47:23.693][STDOUT][68] Farm Catherby
+[14:47:23.704][STDOUT][68] 4
+[14:47:23.706][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:23.708][STDOUT][68] 4
+[14:47:23.709][STDOUT][68] [null, null, null, null]
+[14:47:24.712][STDOUT][68] Farm Catherby
+[14:47:24.723][STDOUT][68] 4
+[14:47:24.725][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:24.726][STDOUT][68] 4
+[14:47:24.728][STDOUT][68] [null, null, null, null]
+[14:47:25.730][STDOUT][68] Farm Catherby
+[14:47:25.740][STDOUT][68] 4
+[14:47:25.742][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:25.743][STDOUT][68] 4
+[14:47:25.744][STDOUT][68] [null, null, null, null]
+[14:47:26.732][INFO][j][1] App started
+[14:47:26.731][INFO][H][38] WebSocket Connected!
+[14:47:26.746][STDOUT][68] Farm Catherby
+[14:47:26.760][STDOUT][68] 4
+[14:47:26.762][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:26.763][STDOUT][68] 4
+[14:47:26.765][STDOUT][68] [null, null, null, null]
+[14:47:26.759][INFO][L][19] Logged in as 'Roflz'
+[14:47:27.769][STDOUT][68] Farm Catherby
+[14:47:27.780][STDOUT][68] 4
+[14:47:27.782][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:27.783][STDOUT][68] 4
+[14:47:27.784][STDOUT][68] [null, null, null, null]
+[14:47:28.365][INFO][H][47] Starting new Bot1
+[14:47:28.374][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:47:28.631][INFO][L][48] Loading hooks
+[14:47:28.785][STDOUT][68] Farm Catherby
+[14:47:28.800][STDOUT][68] 4
+[14:47:28.802][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:28.803][STDOUT][68] 4
+[14:47:28.804][STDOUT][68] [null, null, null, null]
+[14:47:29.807][STDOUT][68] Farm Catherby
+[14:47:29.818][STDOUT][68] 4
+[14:47:29.820][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:29.821][STDOUT][68] 4
+[14:47:29.822][STDOUT][68] [null, null, null, null]
+[14:47:30.397][STDOUT][68] Lets Farm!
+[14:47:30.407][INFO][RandomHandler][68] Starting random: Login
+[14:47:30.428][INFO][L][48] Using local gamepack(200)
+[14:47:30.429][STDOUT][74] 0
+[14:47:30.440][STDOUT][74] []
+[14:47:30.824][STDOUT][68] Farm Catherby
+[14:47:30.840][STDOUT][68] 4
+[14:47:30.946][STDOUT][74] 
+[14:47:31.642][INFO][RandomHandler][68] Starting random: Login
+[14:47:35.888][STDOUT][74] Bank
+[14:47:35.893][STDOUT][74] Going to pick up starting items
+[14:47:37.049][INFO][L][74] Generated path in 1050ms
+[14:47:40.340][STDOUT][68] Lets Farm!
+[14:47:40.349][INFO][RandomHandler][68] Starting random: Login
+[14:47:42.758][STDOUT][69] 0
+[14:47:42.766][STDOUT][69] []
+[14:47:43.272][STDOUT][69] 
+[14:47:43.969][INFO][RandomHandler][68] Starting random: Login
+[14:47:48.159][STDOUT][69] Bank
+[14:47:48.164][STDOUT][69] Going to pick up starting items
+[14:47:49.412][INFO][L][69] Generated path in 1098ms
+[14:47:53.157][STDOUT][47] 0
+[14:47:53.161][STDOUT][47] []
+[14:47:54.376][INFO][RandomHandler][68] Starting random: Login
+[14:47:54.924][STDOUT][74] Bank
+[14:47:56.927][STDOUT][74] [Camelot teleport]
+[14:47:56.931][STDOUT][74] [1]
+[14:47:57.439][STDOUT][74] Bank does not have items, so going to buy them from the GE
+[14:47:57.942][STDOUT][74] Buy items from GE
+[14:47:57.946][INFO][L][74] Navigating to [3164, 3487, 0]
+[14:47:58.576][STDOUT][47] 
+[14:47:30.843][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:47:51.717][INFO][RandomHandler][76] Stopped
+[14:47:51.635][INFO][Farmer-lvl-based][19] Script stopped, reason: stopped by user
+[14:49:17.922][STDOUT][68] 4
+[14:49:17.923][STDOUT][68] [null, null, null, null]
+[14:49:18.593][INFO][L][19] Successfully closed instance
+[14:49:30.437][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:49:34.689][INFO][j][1] App started
+[14:49:34.688][INFO][H][38] WebSocket Connected!
+[14:49:34.714][INFO][L][19] Logged in as 'Roflz'
+[14:49:36.738][INFO][H][47] Starting new Bot1
+[14:49:36.746][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:49:36.976][INFO][L][48] Loading hooks
+[14:49:38.891][INFO][L][48] Using local gamepack(200)
+[14:49:45.532][STDOUT][47] Lets Farm!
+[14:49:45.537][INFO][RandomHandler][47] Starting random: Login
+[14:49:46.836][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:49:51.105][INFO][j][1] App started
+[14:49:51.105][INFO][H][38] WebSocket Connected!
+[14:49:51.131][INFO][L][19] Logged in as 'Roflz'
+[14:49:52.692][INFO][H][47] Starting new Bot1
+[14:49:52.701][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:49:52.916][INFO][L][48] Loading hooks
+[14:49:54.487][INFO][L][48] Using local gamepack(200)
+[14:50:00.824][WARN][Login][47] Account is already logged in, waiting a bit.
+[14:50:01.413][STDOUT][78] Lets Farm!
+[14:50:01.421][INFO][RandomHandler][78] Starting random: Login
+[14:50:02.702][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:50:06.941][INFO][j][1] App started
+[14:50:06.940][INFO][H][38] WebSocket Connected!
+[14:50:06.967][INFO][L][19] Logged in as 'Roflz'
+[14:50:08.522][INFO][H][47] Starting new Bot1
+[14:50:08.531][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:50:08.766][INFO][L][48] Loading hooks
+[14:50:10.677][INFO][L][48] Using local gamepack(200)
+[14:50:13.972][STDOUT][68] [null, null, null, null]
+[14:50:13.978][STDOUT][68] 0
+[14:50:13.980][STDOUT][68] []
+[14:50:14.580][INFO][RandomHandler][78] Starting random: Login
+[14:50:17.420][STDOUT][77] Lets Farm!
+[14:50:17.430][INFO][RandomHandler][77] Starting random: Login
+[14:50:18.237][STDOUT][68] 
+[14:50:18.967][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:50:20.961][STDOUT][68] Bank
+[14:50:20.965][STDOUT][68] Going to pick up starting items
+[14:50:22.135][INFO][L][68] Generated path in 1069ms
+[14:50:23.340][INFO][j][1] App started
+[14:50:23.340][INFO][H][38] WebSocket Connected!
+[14:50:23.372][INFO][L][19] Logged in as 'Roflz'
+[14:50:24.992][INFO][H][47] Starting new Bot1
+[14:50:25.001][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:50:25.204][INFO][L][48] Loading hooks
+[14:50:25.264][STDOUT][68] Bank
+[14:50:26.635][INFO][Farmer-lvl-based][19] Script stopped, reason: stopped by user
+[14:50:26.669][INFO][RandomHandler][78] Stopped
+[14:50:26.699][STDOUT][68] [null, null, null, null]
+[14:50:26.708][STDOUT][68] 0
+[14:50:26.710][STDOUT][68] []
+[14:50:26.974][INFO][L][48] Using local gamepack(200)
+[14:50:27.258][STDOUT][68] [Camelot teleport]
+[14:50:27.262][STDOUT][68] [1]
+[14:50:27.428][INFO][L][19] Successfully closed instance
+[14:50:27.915][INFO][RandomHandler][47] Starting random: Login
+[14:50:28.886][STDOUT][68] Bank does not have items, so going to buy them from the GE
+[14:50:31.113][STDOUT][69] [null, null, null, null]
+[14:50:31.120][STDOUT][69] 0
+[14:50:31.143][STDOUT][69] []
+[14:50:32.112][STDOUT][68] 
+[14:50:32.336][INFO][RandomHandler][77] Starting random: Login
+[14:50:34.429][STDOUT][68] Bank
+[14:50:34.637][STDOUT][69] Lets Farm!
+[14:50:34.649][INFO][RandomHandler][69] Starting random: Login
+[14:50:34.937][STDOUT][68] Farm Catherby
+[14:50:34.983][STDOUT][68] 4
+[14:50:34.986][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:34.988][STDOUT][68] 4
+[14:50:34.991][STDOUT][68] [null, null, null, null]
+[14:50:35.996][STDOUT][68] Farm Catherby
+[14:50:36.015][STDOUT][68] 4
+[14:50:36.018][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:36.020][STDOUT][68] 4
+[14:50:36.022][STDOUT][68] [null, null, null, null]
+[14:50:36.519][STDOUT][69] 
+[14:50:37.025][STDOUT][68] Farm Catherby
+[14:50:37.046][STDOUT][68] 4
+[14:50:37.050][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:37.053][STDOUT][68] 4
+[14:50:37.060][STDOUT][68] [null, null, null, null]
+[14:50:38.066][STDOUT][68] Farm Catherby
+[14:50:38.084][STDOUT][68] 4
+[14:50:38.090][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:38.092][STDOUT][68] 4
+[14:50:38.095][STDOUT][68] [null, null, null, null]
+[14:50:38.781][STDOUT][69] Bank
+[14:50:38.785][STDOUT][69] Going to pick up starting items
+[14:50:39.099][STDOUT][68] Farm Catherby
+[14:50:39.114][STDOUT][68] 4
+[14:50:39.116][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:39.118][STDOUT][68] 4
+[14:50:39.119][STDOUT][68] [null, null, null, null]
+[14:50:39.981][INFO][L][69] Generated path in 1075ms
+[14:50:40.122][STDOUT][68] Farm Catherby
+[14:50:40.141][STDOUT][68] 4
+[14:50:40.144][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:40.146][STDOUT][68] 4
+[14:50:40.148][STDOUT][68] [null, null, null, null]
+[14:50:41.152][STDOUT][68] Farm Catherby
+[14:50:41.169][STDOUT][68] 4
+[14:50:41.173][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:41.175][STDOUT][68] 4
+[14:50:41.176][STDOUT][68] [null, null, null, null]
+[14:50:42.179][STDOUT][68] Farm Catherby
+[14:50:42.193][STDOUT][68] 4
+[14:50:42.196][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:42.198][STDOUT][68] 4
+[14:50:42.199][STDOUT][68] [null, null, null, null]
+[14:50:43.202][STDOUT][68] Farm Catherby
+[14:50:43.221][STDOUT][68] 4
+[14:50:43.223][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:43.225][STDOUT][68] 4
+[14:50:43.226][STDOUT][68] [null, null, null, null]
+[14:50:44.229][STDOUT][68] Farm Catherby
+[14:50:44.246][STDOUT][68] 4
+[14:50:44.249][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:44.251][STDOUT][68] 4
+[14:50:44.253][STDOUT][68] [null, null, null, null]
+[14:50:44.784][STDOUT][69] Bank
+[14:50:45.255][STDOUT][68] Farm Catherby
+[14:50:45.271][STDOUT][68] 4
+[14:50:45.273][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:50:45.275][STDOUT][68] 4
+[14:50:45.276][STDOUT][68] [null, null, null, null]
+[14:50:46.279][STDOUT][68] Farm Catherby
+[14:50:46.292][STDOUT][68] 4
+[14:50:46.887][STDOUT][69] [Camelot teleport]
+[14:50:46.890][STDOUT][69] [1]
+[14:50:47.264][STDOUT][69] Bank does not have items, so going to buy them from the GE
+[14:50:47.768][STDOUT][69] Buy items from GE
+[14:50:47.773][INFO][L][69] Navigating to [3164, 3487, 0]
+[14:50:48.701][INFO][L][69] Generated path in 920ms
+[14:50:46.295][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:52:11.060][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:52:15.181][INFO][j][1] App started
+[14:52:15.181][INFO][H][38] WebSocket Connected!
+[14:52:15.204][INFO][L][19] Logged in as 'Roflz'
+[14:52:16.805][INFO][H][47] Starting new Bot1
+[14:52:16.813][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:52:16.977][INFO][L][48] Loading hooks
+[14:52:18.543][INFO][L][48] Using local gamepack(200)
+[14:52:29.739][STDOUT][69] Lets Farm!
+[14:52:29.746][INFO][RandomHandler][69] Starting random: Login
+[14:52:41.360][STDOUT][68] [null, null, null, null]
+[14:52:41.367][STDOUT][68] []
+[14:52:41.962][INFO][RandomHandler][69] Starting random: Login
+[14:52:45.594][STDOUT][68] 
+[14:52:45.597][STDOUT][68] 25
+[14:52:47.849][STDOUT][68] Bank
+[14:52:48.355][STDOUT][68] Farm Catherby
+[14:52:48.390][STDOUT][68] 4
+[14:52:48.393][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:52:48.395][STDOUT][68] 4
+[14:52:48.396][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:52:48.961][STDOUT][68] Harvesting Sweetcorn
+[14:52:49.964][STDOUT][68] Farm Catherby
+[14:52:49.977][STDOUT][68] 4
+[14:52:49.979][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:52:49.980][STDOUT][68] 4
+[14:52:49.982][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3459, 0]]]
+[14:52:50.985][STDOUT][68] Farm Catherby
+[14:52:50.997][STDOUT][68] 4
+[14:52:50.999][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:51.001][STDOUT][68] 4
+[14:52:51.005][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:52.008][STDOUT][68] Farm Catherby
+[14:52:52.018][STDOUT][68] 4
+[14:52:52.020][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:52.022][STDOUT][68] 4
+[14:52:52.023][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:53.025][STDOUT][68] Farm Catherby
+[14:52:53.034][STDOUT][68] 4
+[14:52:53.035][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:53.036][STDOUT][68] 4
+[14:52:53.037][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:54.039][STDOUT][68] Farm Catherby
+[14:52:54.047][STDOUT][68] 4
+[14:52:54.048][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:54.050][STDOUT][68] 4
+[14:52:54.051][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:55.052][STDOUT][68] Farm Catherby
+[14:52:55.062][STDOUT][68] 4
+[14:52:55.063][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:55.064][STDOUT][68] 4
+[14:52:55.065][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:56.067][STDOUT][68] Farm Catherby
+[14:52:56.077][STDOUT][68] 4
+[14:52:56.079][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:56.080][STDOUT][68] 4
+[14:52:56.081][STDOUT][68] [null, SceneObject[id=8552, name=Sweetcorn, location=[2805, 3466, 0]], null, SceneObject[id=8553, name=Dead sweetcorn plant, location=[2805, 3461, 0]]]
+[14:52:57.083][STDOUT][68] Farm Catherby
+[14:53:58.194][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:54:02.950][INFO][j][1] App started
+[14:54:02.949][INFO][H][38] WebSocket Connected!
+[14:54:02.972][INFO][L][19] Logged in as 'Roflz'
+[14:54:04.645][INFO][H][47] Starting new Bot1
+[14:54:04.653][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:54:04.845][INFO][L][48] Loading hooks
+[14:54:06.603][INFO][L][48] Using local gamepack(200)
+[14:54:10.135][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:54:12.914][STDOUT][47] Lets Farm!
+[14:54:12.918][INFO][RandomHandler][47] Starting random: Login
+[14:54:14.451][INFO][j][1] App started
+[14:54:14.451][INFO][H][38] WebSocket Connected!
+[14:54:14.475][INFO][L][19] Logged in as 'Roflz'
+[14:54:16.019][INFO][H][47] Starting new Bot1
+[14:54:16.027][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:54:16.263][INFO][L][48] Loading hooks
+[14:54:18.047][INFO][L][48] Using local gamepack(200)
+[14:54:21.474][ERROR][ScriptTaskContainer][73] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:21.685][INFO][RandomHandler][47] Starting random: Login
+[14:54:22.028][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:54:24.876][STDOUT][47] Lets Farm!
+[14:54:24.881][INFO][RandomHandler][47] Starting random: Login
+[14:54:26.345][INFO][j][1] App started
+[14:54:26.345][INFO][H][38] WebSocket Connected!
+[14:54:26.372][INFO][L][19] Logged in as 'Roflz'
+[14:54:26.900][ERROR][ScriptTaskContainer][73] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:27.903][ERROR][ScriptTaskContainer][73] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:28.000][INFO][H][47] Starting new Bot1
+[14:54:28.008][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:54:28.218][INFO][L][48] Loading hooks
+[14:54:28.907][ERROR][ScriptTaskContainer][73] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:29.912][ERROR][ScriptTaskContainer][73] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:30.049][INFO][L][48] Using local gamepack(200)
+[14:54:33.881][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[14:54:38.105][INFO][RandomHandler][47] Starting random: Login
+[14:54:38.273][INFO][H][38] WebSocket Connected!
+[14:54:38.273][INFO][j][1] App started
+[14:54:38.304][INFO][L][19] Logged in as 'Roflz'
+[14:54:38.504][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:39.899][INFO][H][47] Starting new Bot1
+[14:54:39.910][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[14:54:40.119][INFO][L][48] Loading hooks
+[14:54:41.869][STDOUT][47] Lets Farm!
+[14:54:41.876][INFO][RandomHandler][47] Starting random: Login
+[14:54:42.081][INFO][L][48] Using local gamepack(200)
+[14:54:43.341][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:44.345][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:45.349][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:46.353][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:53.836][STDOUT][47] Lets Farm!
+[14:54:53.842][INFO][RandomHandler][47] Starting random: Login
+[14:54:55.570][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:55.786][INFO][RandomHandler][47] Starting random: Login
+[14:55:01.064][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:02.069][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:03.075][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:04.080][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:08.217][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:08.428][INFO][RandomHandler][47] Starting random: Login
+[14:55:13.636][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:14.641][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:15.646][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:16.653][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:37.927][INFO][RandomHandler][47] Stopped
+[14:54:30.917][ERROR][ScriptTaskContainer][73] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:37.867][INFO][Farmer-lvl-based][19] Script stopped, reason: stopped by user
+[14:55:05.084][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:17.657][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:54:47.358][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:18.898][INFO][L][19] Successfully closed instance
+[14:55:19.254][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:19.255][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:19.256][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:20.257][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:20.259][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:20.264][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:21.261][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:21.264][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:21.268][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:22.264][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:22.267][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:22.273][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:23.268][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:23.277][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:24.274][ERROR][ScriptTaskContainer][74] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:24.281][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:25.283][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[14:55:26.286][ERROR][ScriptTaskContainer][69] Error during executing task: 'com.epicbot.api.shared.script.LoopScript$LoopTask'
+java.lang.NullPointerException
+	at FarmingUtils.cropsListToSeedNames(FarmingUtils.java:51)
+	at main.createStartingItemsLists(main.java:77)
+	at main.loop(main.java:211)
+	at com.epicbot.api.shared.script.LoopScript$LoopTask.run(vr:56)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.runTask(ez:60)
+	at com.epicbot.api.shared.script.ScriptTaskContainer.run(ez:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[20:33:26.840][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:33:32.608][INFO][j][1] App started
+[20:33:32.607][INFO][H][38] WebSocket Connected!
+[20:33:32.631][INFO][L][19] Logged in as 'Roflz'
+[20:33:35.894][INFO][H][47] Starting new Bot1
+[20:33:35.901][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:33:36.663][INFO][L][48] Loading hooks
+[20:33:40.807][INFO][L][48] Using local gamepack(200)
+[20:34:15.792][INFO][Pro Fighter][111] Starting Pro Fighter
+[20:34:17.225][INFO][RandomHandler][111] Starting random: Login
+[20:34:17.224][INFO][Pro Fighter][121] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[20:34:17.264][INFO][Pro Fighter][121] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[20:34:18.532][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:34:20.329][INFO][Pro Fighter][121] Completed Setup. Starting...
+[20:34:24.050][INFO][j][1] App started
+[20:34:24.050][INFO][H][38] WebSocket Connected!
+[20:34:24.076][INFO][L][19] Logged in as 'Roflz'
+[20:34:26.424][INFO][H][47] Starting new Bot1
+[20:34:26.432][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:34:26.739][INFO][L][48] Loading hooks
+[20:34:29.454][INFO][L][48] Using local gamepack(200)
+[20:34:38.997][INFO][L][121] Generated path in 1204ms
+[20:34:39.002][WARN][J][121] No valid path found
+[20:34:47.992][INFO][L][121] Generated path in 929ms
+[20:34:47.995][WARN][J][121] No valid path found
+[20:34:55.939][INFO][Pro Fighter][47] Starting Pro Fighter
+[20:34:56.474][INFO][L][121] Generated path in 878ms
+[20:34:56.476][WARN][J][121] No valid path found
+[20:34:56.971][INFO][RandomHandler][47] Starting random: Login
+[20:34:56.970][INFO][Pro Fighter][120] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[20:34:57.005][INFO][Pro Fighter][120] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[20:34:58.285][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:34:58.873][INFO][Pro Fighter][120] Completed Setup. Starting...
+[20:35:02.702][INFO][j][1] App started
+[20:35:02.702][INFO][H][38] WebSocket Connected!
+[20:35:02.728][INFO][L][19] Logged in as 'Roflz'
+[20:35:04.422][INFO][H][47] Starting new Bot1
+[20:35:04.431][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:35:04.715][INFO][L][48] Loading hooks
+[20:35:06.653][INFO][L][48] Using local gamepack(200)
+[20:35:11.010][INFO][L][120] Generated path in 1103ms
+[20:35:11.015][WARN][J][120] No valid path found
+[20:35:15.613][INFO][L][120] Generated path in 931ms
+[20:35:15.615][WARN][J][120] No valid path found
+[20:35:20.908][INFO][L][120] Generated path in 1290ms
+[20:35:20.910][WARN][J][120] No valid path found
+[20:35:35.685][INFO][Pro Fighter][75] Starting Pro Fighter
+[20:35:36.669][INFO][Pro Fighter][47] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[20:35:36.671][INFO][RandomHandler][75] Starting random: Login
+[20:35:36.708][INFO][Pro Fighter][47] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[20:35:38.042][INFO][j][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:35:38.920][INFO][Pro Fighter][47] Completed Setup. Starting...
+[20:35:42.588][INFO][j][1] App started
+[20:35:42.588][INFO][H][37] WebSocket Connected!
+[20:35:42.619][INFO][L][19] Logged in as 'Roflz'
+[20:35:44.215][INFO][H][47] Starting new Bot1
+[20:35:44.225][INFO][J][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:35:44.422][INFO][L][48] Loading hooks
+[20:35:46.305][INFO][L][48] Using local gamepack(200)
+[20:35:52.935][INFO][RandomHandler][75] Starting random: Login
+[20:35:54.348][INFO][L][47] Generated path in 1085ms
+[20:36:01.974][INFO][L][47] Generated path in 1006ms
+[20:36:02.610][INFO][Pro Fighter][47] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
+[20:36:05.441][INFO][Pro Fighter][47] Met Training Goal: 10 Strength
+[20:36:16.037][INFO][Pro Fighter][68] Starting Pro Fighter
+[20:36:16.581][INFO][Pro Fighter][47] Met Training Goal: 10 Attack
+[20:36:16.623][INFO][Pro Fighter][47] You dont match tasks requirements. Banking.
+[20:36:17.523][INFO][RandomHandler][68] Starting random: Login
+[20:36:17.522][INFO][Pro Fighter][73] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[20:36:17.564][INFO][Pro Fighter][73] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[20:36:19.217][INFO][Pro Fighter][47] Met Training Goal: 10 Defence
+[20:36:19.874][INFO][Pro Fighter][47] Met Training Goal: 20 Strength
+[20:36:19.921][INFO][L][47] Navigating to [3202, 3292, 0]
+[20:36:20.820][INFO][Pro Fighter][73] Completed Setup. Starting...
+[20:36:21.632][INFO][L][47] Generated path in 1703ms
+[20:36:33.270][INFO][RandomHandler][68] Starting random: Login
+[20:36:34.639][INFO][L][73] Generated path in 1134ms
+[20:36:37.557][INFO][Pro Fighter][73] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
+[20:36:40.295][INFO][Pro Fighter][73] Met Training Goal: 10 Strength
+[20:36:50.038][INFO][Pro Fighter][73] Met Training Goal: 10 Attack
+[20:36:50.167][INFO][Pro Fighter][73] You dont match tasks requirements. Banking.
+[20:36:52.622][INFO][Pro Fighter][73] Met Training Goal: 10 Defence
+[20:36:53.340][INFO][Pro Fighter][73] Met Training Goal: 20 Strength
+[20:36:53.440][INFO][L][73] Navigating to [3202, 3292, 0]
+[20:36:54.612][INFO][L][73] Generated path in 1161ms
+[20:38:55.110][INFO][G][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:39:00.011][INFO][G][1] App started
+[20:39:00.010][INFO][M][38] WebSocket Connected!
+[20:39:00.036][INFO][l][19] Logged in as 'Roflz'
+[20:39:01.599][INFO][M][47] Starting new Bot1
+[20:39:01.606][INFO][L][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:39:01.816][INFO][l][48] Loading hooks
+[20:39:03.702][INFO][l][48] Using local gamepack(200)
+[20:39:28.130][INFO][Pro Fighter][68] Starting Pro Fighter
+[20:39:29.178][INFO][RandomHandler][68] Starting random: Login
+[20:39:29.177][INFO][Pro Fighter][120] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[20:39:29.211][INFO][Pro Fighter][120] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[20:39:31.166][INFO][Pro Fighter][120] Completed Setup. Starting...
+[20:39:42.383][INFO][l][120] Generated path in 1070ms
+[20:39:42.388][WARN][L][120] No valid path found
+[20:39:47.462][INFO][l][120] Generated path in 923ms
+[20:39:47.465][WARN][L][120] No valid path found
+[20:39:51.741][INFO][l][120] Generated path in 944ms
+[20:39:51.744][WARN][L][120] No valid path found

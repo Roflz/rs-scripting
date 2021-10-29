@@ -1,0 +1,10 @@
+[22:48:33.217][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:48:38.218][INFO][D][1] App started
+[22:48:38.217][INFO][f][38] WebSocket Connected!
+[22:48:38.269][INFO][i][19] Logged in as 'Roflz'
+[22:48:39.964][INFO][f][47] Starting new Bot1
+[22:48:39.983][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:48:40.490][INFO][i][48] Loading hooks
+[22:48:42.735][INFO][i][48] Using local gamepack(200)
+[22:48:52.000][STDOUT][68] Lets Farm!
+[22:48:52.017][INFO][RandomHandler][68] Starting random: Login
