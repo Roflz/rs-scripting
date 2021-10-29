@@ -466,6 +466,12 @@ public class main extends LoopScript {
                     watDo = "Done";
                     return 1000;
                 }
+
+            case "Done":
+                if(inventoryContains("Antique lamp")) {
+                    getAPIContext().inventory().interactItem("Rub", "Antique lamp");
+
+                }
         }
         return 1000;
     }
