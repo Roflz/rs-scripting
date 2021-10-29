@@ -285,9 +285,10 @@ public class main extends LoopScript {
             case "South room":
                 walkToAreaCentralTile(VARROCK_MUSEUM_BASEMENT_SOUTH_ROOM);
                 List<SceneObject> plaques = getAPIContext().objects().query().named("Plaque").results().nearestList();
-                for(SceneObject plaque : plaques) {
-                    interactWithObject(plaque, "Study");
-                    Time.sleep(10_000, () -> getAPIContext().widgets().get(533).isVisible());
+                for(int i = 0 ; i < 2 ; i++) {
+                    walkToTile(plaques.get(i).getLocation());
+                    interactWithObject(plaques.get(i), "Study");
+                    Time.sleep(3_000, () -> getAPIContext().widgets().get(533).isVisible());
                     if(getAPIContext().widgets().get(533).isVisible()) {
                         answerQuizQuestions("10",
                                 "Are kalphites carnivores, herbivores, or omnivores?",
@@ -313,11 +314,12 @@ public class main extends LoopScript {
             case "East room":
                 walkToAreaCentralTile(VARROCK_MUSEUM_BASEMENT_EAST_ROOM);
                 plaques = getAPIContext().objects().query().named("Plaque").results().nearestList();
-                for(SceneObject plaque : plaques) {
-                    interactWithObject(plaque, "Study");
-                    Time.sleep(10_000, () -> getAPIContext().widgets().get(533).isVisible());
+                for(int i = 0 ; i < 4 ; i++) {
+                    walkToTile(plaques.get(i).getLocation());
+                    interactWithObject(plaques.get(i), "Study");
+                    Time.sleep(3_000, () -> getAPIContext().widgets().get(533).isVisible());
                     if(getAPIContext().widgets().get(533).isVisible()) {
-                        answerQuizQuestions("10",
+                        answerQuizQuestions("14",
                                 "What is special about the shell of the giant Morytanian snail?",
                                 "How do Morytanian snails capture their prey?",
                                 "Which of these is a snail byproduct?",
@@ -325,7 +327,7 @@ public class main extends LoopScript {
                                 "How do snails move?",
                                 "What is the 'trapdoor', which snails use to cover the entrance to their shells called?",
                                 31, 30, 29, 30, 30, 29);
-                        answerQuizQuestions("9",
+                        answerQuizQuestions("13",
                                 "What is snake venom adapted from?",
                                 "Aside from their noses, what do snakes use to smell?",
                                 "If a snake sticks its tongue out at you, what is it doing?",
@@ -333,66 +335,121 @@ public class main extends LoopScript {
                                 "Lizards and snakes belong to the same order - what is it?",
                                 "Which habitat do snakes prefer?",
                                 30,29,31,30,29,31);
+                        answerQuizQuestions("12",
+                                "We assume that sea slugs have a stinging organ on their soft skin - what is it called?",
+                                "Why has the museum never examined a live sea slug?",
+                                "What do we think the sea slug feeds upon?",
+                                "What are the two fangs presumed to be used for?",
+                                "Off of which coastline would you find sea slugs?",
+                                "In what way are sea slugs similar to snails?",
+                                29,30,30,29,31,31);
+                        answerQuizQuestions("11",
+                                "Which type of primates do monkeys belong to?",
+                                "Which have the lighter colour: Karamjan or Harmless monkeys?",
+                                "Monkeys love bananas. What else do they like to eat?",
+                                "There are two known families of monkeys. One is Karamjan, the other is...?",
+                                "What colour mohawk do Karamjan monkeys have?",
+                                "What have Karamjan monkeys taken a deep dislike to?",
+                                29,31,31,30,29,29);
                     }
                 }
-                watDo = "East room";
+                watDo = "North room";
                 return 1000;
 
             case "North room":
-                walkToAreaCentralTile(VARROCK_MUSEUM_BASEMENT_EAST_ROOM);
+                walkToAreaCentralTile(VARROCK_MUSEUM_BASEMENT_NORTH_ROOM);
                 plaques = getAPIContext().objects().query().named("Plaque").results().nearestList();
-                for(SceneObject plaque : plaques) {
-                    interactWithObject(plaque, "Study");
-                    Time.sleep(10_000, () -> getAPIContext().widgets().get(533).isVisible());
+                for(int i = 0 ; i < 4 ; i++) {
+                    walkToTile(plaques.get(i).getLocation());
+                    interactWithObject(plaques.get(i), "Study");
+                    Time.sleep(3_000, () -> getAPIContext().widgets().get(533).isVisible());
                     if(getAPIContext().widgets().get(533).isVisible()) {
-                        answerQuizQuestions("10",
-                                "Are kalphites carnivores, herbivores, or omnivores?",
-                                "Kalphites are ruled by a...?",
-                                "What is the lowest caste in kalphite society?",
-                                "What are the armoured plates on a kalphite called?",
-                                "What are kalphites assumed to have evolved from?",
-                                "Name the prominent figure in kalphite mythology?",
-                                31, 30, 31, 30, 29, 30);
-                        answerQuizQuestions("9",
-                                "What is a terrorbird's preferred food?",
-                                "Who use terrorbirds as mounts?",
-                                "Where do terrorbirds get most of their water?",
-                                "How many claws do terrorbirds have?",
-                                "What do terrorbirds eat to aid digestion?",
-                                "How many teeth do terrorbirds have?",
-                                29,30,31,30,30,31);
+                        answerQuizQuestions("4",
+                                "How does a lizard regulate body heat?",
+                                "Who discovered how to kill lizards?",
+                                "How many eyes does a lizard have?",
+                                "What order do lizards belong to?",
+                                "What happens when a lizard becomes cold?",
+                                "Lizard skin is made of the same substance as?",
+                                31, 30, 30, 30, 29, 29);
+                        answerQuizQuestions("3",
+                                "What is the name of the oldest tortoise ever recorded?",
+                                "What is a tortoise's favourite food?",
+                                "Name the explorer who discovered the world's oldest tortoise.",
+                                "How does the tortoise protect itself?",
+                                "If a tortoise had twenty rings on its shell, how old would it be?",
+                                "Which race breeds tortoises for battle?",
+                                30,31,29,31,30,29);
+                        answerQuizQuestions("1",
+                                "What is considered a delicacy by dragons?",
+                                "What is the best defence against a dragon's attack?",
+                                "How long do dragons live?",
+                                "Which of these is not a type of dragon?",
+                                "What is the favoured territory of a dragon?",
+                                "Approximately how many feet tall do dragons stand?",
+                                30,29,31,30,30,29);
+                        answerQuizQuestions("2",
+                                "How did the wyverns die out?",
+                                "How many legs does a wyvern have?",
+                                "Where have wyvern bones been found?",
+                                "Which genus does the wyvern theoretically belong to?",
+                                "What are the wyverns' closest relations?",
+                                "What is the ambient temperature of wyvern bones?",
+                                29,29,31,30,31,30);
                     }
                 }
-                watDo = "East room";
+                watDo = "West room";
                 return 1000;
 
             case "West room":
-                walkToAreaCentralTile(VARROCK_MUSEUM_BASEMENT_EAST_ROOM);
+                walkToAreaCentralTile(VARROCK_MUSEUM_BASEMENT_WEST_ROOM);
                 plaques = getAPIContext().objects().query().named("Plaque").results().nearestList();
-                for(SceneObject plaque : plaques) {
-                    interactWithObject(plaque, "Study");
-                    Time.sleep(10_000, () -> getAPIContext().widgets().get(533).isVisible());
+                for(int i = 0 ; i < 4 ; i++) {
+                    walkToTile(plaques.get(i).getLocation());
+                    interactWithObject(plaques.get(i), "Study");
+                    Time.sleep(3_000, () -> getAPIContext().widgets().get(533).isVisible());
                     if(getAPIContext().widgets().get(533).isVisible()) {
-                        answerQuizQuestions("10",
-                                "Are kalphites carnivores, herbivores, or omnivores?",
-                                "Kalphites are ruled by a...?",
-                                "What is the lowest caste in kalphite society?",
-                                "What are the armoured plates on a kalphite called?",
-                                "What are kalphites assumed to have evolved from?",
-                                "Name the prominent figure in kalphite mythology?",
-                                31, 30, 31, 30, 29, 30);
-                        answerQuizQuestions("9",
-                                "What is a terrorbird's preferred food?",
-                                "Who use terrorbirds as mounts?",
-                                "Where do terrorbirds get most of their water?",
-                                "How many claws do terrorbirds have?",
-                                "What do terrorbirds eat to aid digestion?",
-                                "How many teeth do terrorbirds have?",
-                                29,30,31,30,30,31);
+                        answerQuizQuestions("8",
+                                "Which sense do penguins rely on when hunting?",
+                                "Which skill seems unusual for the penguins to possess?",
+                                "How do penguins keep warm?",
+                                "What is the preferred climate for penguins?",
+                                "Describe the behaviour of penguins?",
+                                "When do penguins fast?",
+                                31, 29, 29, 29, 29, 30);
+                        answerQuizQuestions("7",
+                                "What habitat do moles prefer?",
+                                "Why are moles considered to be an agricultural pest?",
+                                "Who discovered giant moles?",
+                                "What would you call a group of young moles?",
+                                "What is a mole's favourite food?",
+                                "Which family do moles belong to?",
+                                29,29,31,31,29,30);
+                        answerQuizQuestions("6",
+                                "What is produced by feeding chilli to a camel?",
+                                "If an ugthanki has one, how many does a bactrian have?",
+                                "Camels:herbivore, carnivore or omnivore?",
+                                "What is the usual mood for a camel?",
+                                "Where would you find an ugthanki?",
+                                "Which camel byproduct is known to be very nutritious?",
+                                30,30,31,29,29,29);
+                        answerQuizQuestions("5",
+                                "What is the favoured habitat of leeches?",
+                                "What shape is the inside of a leech's mouth?",
+                                "Which of these is not eaten by leeches?",
+                                "What contributed to the giant growth of Morytanian leeches?",
+                                "What is special about the Morytanian leeches?",
+                                "How does a leech change when it feeds?",
+                                29,31,30,29,30,31);
                     }
                 }
-                watDo = "East room";
-                return 1000;
+                if(getAPIContext().widgets().get(532).getChild(2).getChild(1).getText().contains("78/230")) {
+                    watDo = "Next";
+                    return 1000;
+                } else {
+                    watDo = "South room";
+                    return 1000;
+                }
 
         }
         return 1000;
