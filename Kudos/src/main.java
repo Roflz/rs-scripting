@@ -444,18 +444,33 @@ public class main extends LoopScript {
                     }
                 }
                 if(getAPIContext().widgets().get(532).getChild(2).getChild(1).getText().contains("78/230")) {
-                    watDo = "Next";
+                    walkToTile(new Tile(1759, 4954, 0));
+                    talkToNPC("Orlando Smith");
+                    watDo = "Timeline displays";
                     return 1000;
                 } else {
                     watDo = "South room";
                     return 1000;
                 }
 
+            case "Timeline displays":
+                if(!playerisInArea(VARROCK_MUSEUM_UPSTAIRS)) {
+                    walkToTile(new Tile(1759, 4954, 0));
+                    interactWithObject("Stairs", "Walk-up");
+                    Time.sleep(10_000, () -> getAPIContext().localPlayer().getY() < 4000);
+                    walkToTile(new Tile(3262, 3455, 1));
+                    return 1000;
+                }
+                talkToNPC("Historian Minas", 1);
+                if(getAPIContext().widgets().get(532).getChild(2).getChild(1).getText().contains("103/230")) {
+                    watDo = "Done";
+                    return 1000;
+                }
         }
         return 1000;
     }
 
-    public static String watDo = "South room";
+    public static String watDo = "Timeline displays";
 
     @Override
     public boolean onStart(String... strings) {

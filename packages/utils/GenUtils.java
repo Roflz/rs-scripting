@@ -100,7 +100,7 @@ public abstract class GenUtils extends LoopScript {
         return 1000;
     }
 
-    public static int talkToNPCWithOptions(String npcName, Integer ...options) {
+    public static int talkToNPC(String npcName, Integer ...options) {
         if(stx.npcs().query().named(npcName).results().nearest() != null) {
             NPC npc = stx.npcs().query().named(npcName).results().nearest();
             stx.camera().turnTo(npc);

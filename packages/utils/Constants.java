@@ -25,6 +25,7 @@ public interface Constants {
     public final Area VARROCK_MUSEUM_BASEMENT_EAST_ROOM = new Area(new Tile(1772, 4963, 0), new Tile(1778, 4957, 0));
     public final Area VARROCK_MUSEUM_BASEMENT_NORTH_ROOM = new Area(new Tile(1755, 4977, 0), new Tile(1764, 4981, 0));
     public final Area VARROCK_MUSEUM_BASEMENT_WEST_ROOM = new Area(new Tile(1746, 4957, 0), new Tile(1740, 4963, 0));
+    public final Area VARROCK_MUSEUM_UPSTAIRS = new Area(new Tile(3268, 3456, 1), new Tile(3252, 3441, 1));
 
 
 
