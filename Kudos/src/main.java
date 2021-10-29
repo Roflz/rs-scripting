@@ -327,12 +327,12 @@ public class main extends LoopScript {
                                 31, 30, 29, 30, 30, 29);
                         answerQuizQuestions("9",
                                 "What is snake venom adapted from?",
-                                "Who use terrorbirds as mounts?",
-                                "Where do terrorbirds get most of their water?",
-                                "How many claws do terrorbirds have?",
-                                "What do terrorbirds eat to aid digestion?",
-                                "How many teeth do terrorbirds have?",
-                                29,30,31,30,30,31);
+                                "Aside from their noses, what do snakes use to smell?",
+                                "If a snake sticks its tongue out at you, what is it doing?",
+                                "If some snakes use venom to kill their prey, what do other snakes use?",
+                                "Lizards and snakes belong to the same order - what is it?",
+                                "Which habitat do snakes prefer?",
+                                30,29,31,30,29,31);
                     }
                 }
                 watDo = "East room";
