@@ -470,13 +470,20 @@ public class main extends LoopScript {
             case "Done":
                 if(inventoryContains("Antique lamp")) {
                     getAPIContext().inventory().interactItem("Rub", "Antique lamp");
-
+                    getAPIContext().widgets().get(240).getChild(15).interact();
+                    getAPIContext().widgets().get(240).getChild(26).interact();
+                } else {
+                    goToClosestBank();
+                    openBank();
+                    depositInventory();
+                    closeBank();
+                    logOut();
                 }
         }
         return 1000;
     }
 
-    public static String watDo = "Timeline displays";
+    public static String watDo = "Done";
 
     @Override
     public boolean onStart(String... strings) {
