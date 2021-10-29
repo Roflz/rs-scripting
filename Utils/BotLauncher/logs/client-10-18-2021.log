@@ -1,0 +1,959 @@
+[19:57:16.767][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:02:17.198][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:02:21.300][INFO][D][1] App started
+[20:02:21.300][INFO][f][38] WebSocket Connected!
+[20:02:21.324][INFO][i][19] Logged in as 'Roflz'
+[20:02:22.966][INFO][f][47] Starting new Bot1
+[20:02:22.974][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:02:23.256][INFO][i][48] Loading hooks
+[20:02:25.408][INFO][i][48] Using local gamepack(200)
+[20:02:31.886][STDOUT][68] Lets Farm!
+[20:02:31.895][INFO][RandomHandler][68] Starting random: Login
+[20:02:59.023][INFO][Farmer-mid-lvl][19] Script stopped, reason: stopped by user
+[20:02:59.046][INFO][RandomHandler][68] Stopped
+[20:02:59.656][INFO][i][19] Successfully closed instance
+[20:03:43.256][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:03:47.495][INFO][D][1] App started
+[20:03:47.494][INFO][f][38] WebSocket Connected!
+[20:03:47.521][INFO][i][19] Logged in as 'Roflz'
+[20:03:49.143][INFO][f][47] Starting new Bot1
+[20:03:49.152][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:03:49.425][INFO][i][48] Loading hooks
+[20:03:51.249][INFO][i][48] Using local gamepack(200)
+[20:04:02.313][STDOUT][47] Lets Farm!
+[20:04:02.319][INFO][RandomHandler][47] Starting random: Login
+[20:04:21.130][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[20:04:21.141][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[20:04:21.823][INFO][RandomHandler][47] Starting random: Login
+[20:05:26.725][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:05:26.741][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:05:30.188][ERROR][k][1] Failed to refresh token: 500 - 
+[20:05:30.192][ERROR][k][1] <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style><script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head><body><h1>HTTP Status 500 – Internal Server Error</h1><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6a06c8fe5878fdc9',m:'sMa99sTHssJ2ej36F4k84XnmMAhUA8bY8R0UrpbcyKc-1634612731-0-AY7Faer+XVNXISdXdRUekvq+9jo4lZhJzQ260SaNtsXhEBNrcg3vGc/PzjHOCkE8TtlgmPG+bTZ2ORyp7PSY1/cg6k6FR45TBJH5Y+bhhNlD56UJOLz3IVOht+qZ/h9g+RtC9uCGMyqY6of4Luc61Bg=',s:[0x24582debc0,0x763661bedb],}})();</script></body></html>
+[20:05:30.199][INFO][D][1] App started
+[20:05:31.021][INFO][D][1] App started
+[20:05:31.021][INFO][f][38] WebSocket Connected!
+[20:05:31.044][INFO][i][19] Logged in as 'Roflz'
+[20:05:32.557][INFO][f][47] Starting new Bot1
+[20:05:32.566][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:05:32.791][INFO][i][48] Loading hooks
+[20:05:34.495][INFO][i][48] Using local gamepack(200)
+[20:05:40.933][STDOUT][68] Lets Farm!
+[20:05:40.941][INFO][RandomHandler][68] Starting random: Login
+[20:06:00.385][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[20:06:00.393][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[20:06:01.098][INFO][RandomHandler][68] Starting random: Login
+[20:06:25.453][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:06:25.468][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[20:06:28.980][ERROR][k][1] Failed to refresh token: 500 - 
+[20:06:28.985][ERROR][k][1] <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style><script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head><body><h1>HTTP Status 500 – Internal Server Error</h1><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6a06ca6dec70fd8a',m:'PmRRZ62AXEYBTd7Ucvm4GV0tqjY0NDX1e9R8PadEOxE-1634612789-0-AeS2nuH2f2yZS2UAhQ82KtvBR+271T4IOwhAkfEuMoHpqw/sIUd2bzpjl+TYIoce/DK6ivx7Mp9V5tZEFDfvimqMTG3QuJrQDE3/M2+BAZgGp5PWCHrRC9XnWDbFrT30XaSayU7apZhLuDkhH+hde38=',s:[0x8685e25a1c,0xd335365935],}})();</script></body></html>
+[20:06:28.993][INFO][D][1] App started
+[20:06:29.711][INFO][D][1] App started
+[20:06:29.710][INFO][f][37] WebSocket Connected!
+[20:06:29.735][INFO][i][19] Logged in as 'Roflz'
+[20:06:31.358][INFO][f][47] Starting new Bot1
+[20:06:31.366][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:06:31.591][INFO][i][48] Loading hooks
+[20:06:33.296][INFO][i][48] Using local gamepack(200)
+[20:06:40.307][STDOUT][74] Lets Farm!
+[20:06:40.314][INFO][RandomHandler][74] Starting random: Login
+[20:06:52.110][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[20:06:52.117][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[20:06:52.779][INFO][RandomHandler][74] Starting random: Login
+[20:06:54.295][INFO][f][43] WebSocket Connected!
+[20:06:54.326][INFO][i][19] Logged in as 'Roflz'
+[20:06:55.958][INFO][f][51] Starting new Bot1
+[20:06:55.965][INFO][h][52] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[20:06:56.175][INFO][i][52] Loading hooks
+[20:06:57.890][INFO][i][52] Using local gamepack(200)
+[20:07:09.406][STDOUT][72] Lets Farm!
+[20:07:09.414][INFO][RandomHandler][72] Starting random: Login
+[20:07:22.093][STDOUT][64] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[20:11:53.958][INFO][RandomHandler][74] Starting random: Login
+[20:12:01.721][STDOUT][61] Error: cp.l() di.m() dh.f() | | java.lang.ArrayIndexOutOfBoundsException | 4473 4471 2003
+[20:12:01.725][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[20:07:22.105][ERROR][i][64] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[21:55:41.555][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[21:55:41.563][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[21:55:45.866][INFO][D][1] App started
+[21:55:45.866][INFO][f][38] WebSocket Connected!
+[21:55:45.891][INFO][i][19] Logged in as 'Roflz'
+[21:55:46.005][INFO][D][1] App started
+[21:55:46.005][INFO][f][38] WebSocket Connected!
+[21:55:46.028][INFO][i][19] Logged in as 'Roflz'
+[21:55:47.513][INFO][f][47] Starting new Bot1
+[21:55:47.521][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[21:55:47.846][INFO][f][47] Starting new Bot1
+[21:55:47.855][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[21:55:48.055][INFO][i][48] Loading hooks
+[21:55:48.055][INFO][i][48] Loading hooks
+[21:55:50.168][INFO][i][48] Using local gamepack(200)
+[21:55:50.181][INFO][i][48] Using local gamepack(200)
+[21:55:56.944][STDOUT][77] Lets Farm!
+[21:55:56.953][INFO][RandomHandler][77] Starting random: Login
+[21:57:01.599][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[21:57:01.601][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[21:57:01.610][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[21:57:05.818][ERROR][k][1] Failed to refresh token: 500 - 
+[21:57:05.823][ERROR][k][1] <!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style><script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head><body><h1>HTTP Status 500 – Internal Server Error</h1><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6a076c76499f03bc',m:'W7TKOBSrjMsRWRK1v5HaYvZPZxdmLejw9hwH0.fME6M-1634619426-0-Aa1jNSLmbl3fm6UnZowEUIWByF/aclWkpPKABtYHzeEhsTEg1SielVErNqXrhK5ZuJfJJ9pdWf4nSlJQAfhR/v8rTk76nVC0awOLcs0OK9cobZ69CuXmwaZSq/eKeIsWlG3bBJRHIfTXYonRndEvpCM=',s:[0xd5f3d79bba,0x8090265388],}})();</script></body></html>
+[21:57:05.830][INFO][D][1] App started
+[21:57:06.378][INFO][D][1] App started
+[21:57:06.377][INFO][f][38] WebSocket Connected!
+[21:57:06.404][INFO][i][19] Logged in as 'Roflz'
+[21:57:06.522][INFO][D][1] App started
+[21:57:06.521][INFO][f][38] WebSocket Connected!
+[21:57:06.545][INFO][i][19] Logged in as 'Roflz'
+[21:57:07.986][INFO][f][47] Starting new Bot1
+[21:57:07.994][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[21:57:08.207][INFO][i][48] Loading hooks
+[21:57:08.208][INFO][f][47] Starting new Bot1
+[21:57:08.216][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[21:57:08.440][INFO][i][48] Loading hooks
+[21:57:09.956][INFO][i][48] Using local gamepack(200)
+[21:57:10.641][INFO][i][48] Using local gamepack(200)
+[21:57:21.393][STDOUT][73] Lets Farm!
+[21:57:21.402][INFO][RandomHandler][73] Starting random: Login
+[21:57:21.599][STDOUT][47] Lets Farm!
+[21:57:21.606][INFO][RandomHandler][47] Starting random: Login
+[21:57:37.181][INFO][f][43] WebSocket Connected!
+[21:57:37.209][INFO][i][19] Logged in as 'Roflz'
+[21:57:38.774][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[21:57:38.789][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[21:57:39.079][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[21:57:39.090][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[21:57:39.370][INFO][RandomHandler][47] Starting random: Login
+[21:57:39.481][INFO][f][51] Starting new Bot1
+[21:57:39.489][INFO][h][52] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[21:57:39.591][INFO][RandomHandler][73] Starting random: Login
+[21:57:39.777][INFO][i][52] Loading hooks
+[21:57:41.827][INFO][i][52] Using local gamepack(200)
+[21:57:48.923][STDOUT][51] Lets Farm!
+[21:57:48.929][INFO][RandomHandler][51] Starting random: Login
+[21:58:56.444][STDOUT][69] 
+[21:58:58.254][STDOUT][69] Going to pick up starting items
+[21:59:53.119][STDOUT][76] 
+[21:59:54.883][STDOUT][76] Going to pick up starting items
+[21:59:34.748][INFO][RandomHandler][47] Stopped
+[21:59:34.191][INFO][Farmer-mid-lvl][19] Script stopped, reason: stopped by user
+[22:04:42.525][ERROR][i][39] websocket error
+org.springframework.messaging.MessageDeliveryException: nested exception is java.lang.IllegalStateException: The connection has been closed., failedMessage=GenericMessage [payload=byte[68], headers={simpMessageType=MESSAGE, stompCommand=SEND, nativeHeaders={destination=[/app/report], content-type=[application/json]}, contentType=application/json, simpSessionId=8f14a87a-a015-53f3-91dd-6f5ed22443ed, simpDestination=/app/report}]
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.execute(DefaultStompSession.java:292)
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.send(DefaultStompSession.java:233)
+	at com.epicbot.core.session.websocket.h.A(kk:136)
+	at com.epicbot.core.session.i.A(hi:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: The connection has been closed.
+	at org.glassfish.tyrus.core.TyrusSession.checkConnectionState(TyrusSession.java:530)
+	at org.glassfish.tyrus.core.TyrusSession.getBasicRemote(TyrusSession.java:212)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketSession.sendTextMessage(StandardWebSocketSession.java:215)
+	at org.springframework.web.socket.adapter.AbstractWebSocketSession.sendMessage(AbstractWebSocketSession.java:106)
+	at org.springframework.web.socket.messaging.WebSocketStompClient$WebSocketTcpConnectionHandlerAdapter.send(WebSocketStompClient.java:383)
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.execute(DefaultStompSession.java:289)
+	... 10 more
+[22:00:03.905][INFO][RandomHandler][73] Stopped
+[22:00:03.763][INFO][Farmer-mid-lvl][19] Script stopped, reason: stopped by user
+[22:04:42.382][ERROR][i][39] websocket error
+org.springframework.messaging.MessageDeliveryException: nested exception is java.lang.IllegalStateException: The connection has been closed., failedMessage=GenericMessage [payload=byte[68], headers={simpMessageType=MESSAGE, stompCommand=SEND, nativeHeaders={destination=[/app/report], content-type=[application/json]}, contentType=application/json, simpSessionId=04a1b27e-51c7-4307-0b94-885c8820a219, simpDestination=/app/report}]
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.execute(DefaultStompSession.java:292)
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.send(DefaultStompSession.java:233)
+	at com.epicbot.core.session.websocket.h.A(kk:136)
+	at com.epicbot.core.session.i.A(hi:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: The connection has been closed.
+	at org.glassfish.tyrus.core.TyrusSession.checkConnectionState(TyrusSession.java:530)
+	at org.glassfish.tyrus.core.TyrusSession.getBasicRemote(TyrusSession.java:212)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketSession.sendTextMessage(StandardWebSocketSession.java:215)
+	at org.springframework.web.socket.adapter.AbstractWebSocketSession.sendMessage(AbstractWebSocketSession.java:106)
+	at org.springframework.web.socket.messaging.WebSocketStompClient$WebSocketTcpConnectionHandlerAdapter.send(WebSocketStompClient.java:383)
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.execute(DefaultStompSession.java:289)
+	... 10 more
+[22:21:23.886][ERROR][i][39] websocket error
+org.springframework.messaging.MessageDeliveryException: nested exception is java.lang.IllegalStateException: The connection has been closed., failedMessage=GenericMessage [payload=byte[68], headers={simpMessageType=MESSAGE, stompCommand=SEND, nativeHeaders={destination=[/app/report], content-type=[application/json]}, contentType=application/json, simpSessionId=8f14a87a-a015-53f3-91dd-6f5ed22443ed, simpDestination=/app/report}]
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.execute(DefaultStompSession.java:292)
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.send(DefaultStompSession.java:233)
+	at com.epicbot.core.session.websocket.h.A(kk:136)
+	at com.epicbot.core.session.i.A(hi:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: The connection has been closed.
+	at org.glassfish.tyrus.core.TyrusSession.checkConnectionState(TyrusSession.java:530)
+	at org.glassfish.tyrus.core.TyrusSession.getBasicRemote(TyrusSession.java:212)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketSession.sendTextMessage(StandardWebSocketSession.java:215)
+	at org.springframework.web.socket.adapter.AbstractWebSocketSession.sendMessage(AbstractWebSocketSession.java:106)
+	at org.springframework.web.socket.messaging.WebSocketStompClient$WebSocketTcpConnectionHandlerAdapter.send(WebSocketStompClient.java:383)
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.execute(DefaultStompSession.java:289)
+	... 10 more
+[22:21:23.889][ERROR][f][37] HANDLE TRANSPORT ERROR CALLED
+org.springframework.messaging.simp.stomp.ConnectionLostException: Connection closed
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.afterConnectionClosed(DefaultStompSession.java:523)
+	at org.springframework.web.socket.messaging.WebSocketStompClient$WebSocketTcpConnectionHandlerAdapter.afterConnectionClosed(WebSocketStompClient.java:352)
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionClosed(WebSocketHandlerDecorator.java:85)
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionClosed(LoggingWebSocketHandlerDecorator.java:72)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onClose(StandardWebSocketHandlerAdapter.java:145)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onClose(TyrusEndpointWrapper.java:1251)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onClose(TyrusWebSocket.java:130)
+	at org.glassfish.tyrus.core.ProtocolHandler.close(ProtocolHandler.java:469)
+	at org.glassfish.tyrus.core.TyrusWebSocket.close(TyrusWebSocket.java:260)
+	at org.glassfish.tyrus.client.TyrusClientEngine$2$1.close(TyrusClientEngine.java:635)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$CloseTask.execute(GrizzlyClientFilter.java:494)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleClose(GrizzlyClientFilter.java:221)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$4.execute(ExecutorResolver.java:76)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.nio.NIOConnection.preClose(NIOConnection.java:836)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.preClose(TCPNIOConnection.java:97)
+	at org.glassfish.grizzly.nio.NIOConnection.terminate0(NIOConnection.java:560)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.terminate0(TCPNIOConnection.java:291)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.read(TCPNIOTransport.java:629)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransportFilter.handleRead(TCPNIOTransportFilter.java:75)
+	at org.glassfish.grizzly.filterchain.TransportFilter.handleRead(TransportFilter.java:173)
+	at org.glassfish.grizzly.ssl.SSLBaseFilter$SSLTransportFilterWrapper.handleRead(SSLBaseFilter.java:1046)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+[22:21:23.892][ERROR][f][37] HANDLE TRANSPORT ERROR CALLED
+org.springframework.messaging.simp.stomp.ConnectionLostException: Connection closed
+	at org.springframework.messaging.simp.stomp.DefaultStompSession.afterConnectionClosed(DefaultStompSession.java:523)
+	at org.springframework.web.socket.messaging.WebSocketStompClient$WebSocketTcpConnectionHandlerAdapter.afterConnectionClosed(WebSocketStompClient.java:352)
+	at org.springframework.web.socket.handler.WebSocketHandlerDecorator.afterConnectionClosed(WebSocketHandlerDecorator.java:85)
+	at org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator.afterConnectionClosed(LoggingWebSocketHandlerDecorator.java:72)
+	at org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter.onClose(StandardWebSocketHandlerAdapter.java:145)
+	at org.glassfish.tyrus.core.TyrusEndpointWrapper.onClose(TyrusEndpointWrapper.java:1251)
+	at org.glassfish.tyrus.core.TyrusWebSocket.onClose(TyrusWebSocket.java:130)
+	at org.glassfish.tyrus.core.ProtocolHandler.close(ProtocolHandler.java:469)
+	at org.glassfish.tyrus.core.TyrusWebSocket.close(TyrusWebSocket.java:260)
+	at org.glassfish.tyrus.client.TyrusClientEngine$2$1.close(TyrusClientEngine.java:635)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter$CloseTask.execute(GrizzlyClientFilter.java:494)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:114)
+	at org.glassfish.tyrus.container.grizzly.client.TaskProcessor.processTask(TaskProcessor.java:91)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleClose(GrizzlyClientFilter.java:221)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$4.execute(ExecutorResolver.java:76)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.nio.NIOConnection.preClose(NIOConnection.java:836)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.preClose(TCPNIOConnection.java:97)
+	at org.glassfish.grizzly.nio.NIOConnection.terminate0(NIOConnection.java:560)
+	at org.glassfish.grizzly.nio.transport.TCPNIOConnection.terminate0(TCPNIOConnection.java:291)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.read(TCPNIOTransport.java:629)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransportFilter.handleRead(TCPNIOTransportFilter.java:75)
+	at org.glassfish.grizzly.filterchain.TransportFilter.handleRead(TransportFilter.java:173)
+	at org.glassfish.grizzly.ssl.SSLBaseFilter$SSLTransportFilterWrapper.handleRead(SSLBaseFilter.java:1046)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	at java.lang.Thread.run(Unknown Source)
+[22:21:24.667][ERROR][f][123] HANDLE TRANSPORT ERROR CALLED
+javax.websocket.DeploymentException: Handshake error.
+	at org.glassfish.tyrus.client.ClientManager$3$1.run(ClientManager.java:674)
+	at org.glassfish.tyrus.client.ClientManager$3.run(ClientManager.java:712)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager$SameThreadExecutorService.execute(ClientManager.java:866)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:511)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:355)
+	at org.springframework.web.socket.client.standard.StandardWebSocketClient.lambda$doHandshakeInternal$0(StandardWebSocketClient.java:151)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.glassfish.tyrus.core.HandshakeException: Response code was not 101: 200.
+	at org.glassfish.tyrus.client.TyrusClientEngine.processResponse(TyrusClientEngine.java:320)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleHandshake(GrizzlyClientFilter.java:346)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:315)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	... 1 more
+[22:21:24.667][ERROR][h][39] Failed to connect
+java.util.concurrent.ExecutionException: javax.websocket.DeploymentException: Handshake error.
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.springframework.util.concurrent.SettableListenableFuture.get(SettableListenableFuture.java:119)
+	at com.epicbot.core.session.websocket.h.A(kk:112)
+	at com.epicbot.core.session.websocket.h.h(kk:78)
+	at com.epicbot.core.session.i.A(hi:56)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Handshake error.
+	at org.glassfish.tyrus.client.ClientManager$3$1.run(ClientManager.java:674)
+	at org.glassfish.tyrus.client.ClientManager$3.run(ClientManager.java:712)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager$SameThreadExecutorService.execute(ClientManager.java:866)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:511)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:355)
+	at org.springframework.web.socket.client.standard.StandardWebSocketClient.lambda$doHandshakeInternal$0(StandardWebSocketClient.java:151)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.glassfish.tyrus.core.HandshakeException: Response code was not 101: 200.
+	at org.glassfish.tyrus.client.TyrusClientEngine.processResponse(TyrusClientEngine.java:320)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleHandshake(GrizzlyClientFilter.java:346)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:315)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	... 1 more
+[22:21:24.679][ERROR][f][134] HANDLE TRANSPORT ERROR CALLED
+javax.websocket.DeploymentException: Handshake error.
+	at org.glassfish.tyrus.client.ClientManager$3$1.run(ClientManager.java:674)
+	at org.glassfish.tyrus.client.ClientManager$3.run(ClientManager.java:712)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager$SameThreadExecutorService.execute(ClientManager.java:866)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:511)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:355)
+	at org.springframework.web.socket.client.standard.StandardWebSocketClient.lambda$doHandshakeInternal$0(StandardWebSocketClient.java:151)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.glassfish.tyrus.core.HandshakeException: Response code was not 101: 200.
+	at org.glassfish.tyrus.client.TyrusClientEngine.processResponse(TyrusClientEngine.java:320)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleHandshake(GrizzlyClientFilter.java:346)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:315)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	... 1 more
+[22:21:24.679][ERROR][h][39] Failed to connect
+java.util.concurrent.ExecutionException: javax.websocket.DeploymentException: Handshake error.
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.springframework.util.concurrent.SettableListenableFuture.get(SettableListenableFuture.java:119)
+	at com.epicbot.core.session.websocket.h.A(kk:112)
+	at com.epicbot.core.session.websocket.h.h(kk:78)
+	at com.epicbot.core.session.i.A(hi:56)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.websocket.DeploymentException: Handshake error.
+	at org.glassfish.tyrus.client.ClientManager$3$1.run(ClientManager.java:674)
+	at org.glassfish.tyrus.client.ClientManager$3.run(ClientManager.java:712)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager$SameThreadExecutorService.execute(ClientManager.java:866)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:511)
+	at org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:355)
+	at org.springframework.web.socket.client.standard.StandardWebSocketClient.lambda$doHandshakeInternal$0(StandardWebSocketClient.java:151)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	... 1 more
+Caused by: org.glassfish.tyrus.core.HandshakeException: Response code was not 101: 200.
+	at org.glassfish.tyrus.client.TyrusClientEngine.processResponse(TyrusClientEngine.java:320)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleHandshake(GrizzlyClientFilter.java:346)
+	at org.glassfish.tyrus.container.grizzly.client.GrizzlyClientFilter.handleRead(GrizzlyClientFilter.java:315)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:283)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:200)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:132)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:111)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:536)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:117)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:56)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:137)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:591)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:571)
+	... 1 more
+[22:27:37.947][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:27:42.681][INFO][D][1] App started
+[22:27:42.681][INFO][f][38] WebSocket Connected!
+[22:27:42.705][INFO][i][19] Logged in as 'Roflz'
+[22:27:44.498][INFO][f][47] Starting new Bot1
+[22:27:44.506][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:27:44.735][INFO][i][48] Loading hooks
+[22:27:46.719][INFO][i][48] Using local gamepack(200)
+[22:29:38.049][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:29:42.760][INFO][D][1] App started
+[22:29:42.759][INFO][f][38] WebSocket Connected!
+[22:29:42.783][INFO][i][19] Logged in as 'Roflz'
+[22:29:44.649][INFO][f][47] Starting new Bot1
+[22:29:44.657][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:29:44.872][INFO][i][48] Loading hooks
+[22:29:47.172][INFO][i][48] Using local gamepack(200)
+[22:31:32.578][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:31:37.149][INFO][D][1] App started
+[22:31:37.149][INFO][f][38] WebSocket Connected!
+[22:31:37.172][INFO][i][19] Logged in as 'Roflz'
+[22:31:38.978][INFO][f][47] Starting new Bot1
+[22:31:38.986][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:31:39.197][INFO][i][48] Loading hooks
+[22:31:41.251][INFO][i][48] Using local gamepack(200)
+[22:34:11.981][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:34:16.647][INFO][D][1] App started
+[22:34:16.647][INFO][f][38] WebSocket Connected!
+[22:34:16.671][INFO][i][19] Logged in as 'Roflz'
+[22:34:18.621][INFO][f][47] Starting new Bot1
+[22:34:18.629][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:34:18.871][INFO][i][48] Loading hooks
+[22:34:20.802][INFO][i][48] Using local gamepack(200)
+[22:35:40.375][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:35:45.026][INFO][D][1] App started
+[22:35:45.025][INFO][f][38] WebSocket Connected!
+[22:35:45.050][INFO][i][19] Logged in as 'Roflz'
+[22:35:46.890][INFO][f][47] Starting new Bot1
+[22:35:46.899][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:35:47.095][INFO][i][48] Loading hooks
+[22:35:49.094][INFO][i][48] Using local gamepack(200)
+[22:37:22.465][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:37:27.093][INFO][D][1] App started
+[22:37:27.093][INFO][f][38] WebSocket Connected!
+[22:37:27.116][INFO][i][19] Logged in as 'Roflz'
+[22:37:28.957][INFO][f][47] Starting new Bot1
+[22:37:28.964][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:37:29.213][INFO][i][48] Loading hooks
+[22:37:31.095][INFO][i][48] Using local gamepack(200)
+[22:40:05.171][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:40:10.064][INFO][D][1] App started
+[22:40:10.063][INFO][f][37] WebSocket Connected!
+[22:40:10.090][INFO][i][19] Logged in as 'Roflz'
+[22:40:11.912][INFO][f][47] Starting new Bot1
+[22:40:11.920][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:40:12.129][INFO][i][48] Loading hooks
+[22:40:14.146][INFO][i][48] Using local gamepack(200)
+[22:42:14.576][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:42:19.289][INFO][D][1] App started
+[22:42:19.288][INFO][f][38] WebSocket Connected!
+[22:42:19.314][INFO][i][19] Logged in as 'Roflz'
+[22:42:21.132][INFO][f][47] Starting new Bot1
+[22:42:21.140][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:42:21.342][INFO][i][48] Loading hooks
+[22:42:23.168][INFO][i][48] Using local gamepack(200)
+[22:43:14.526][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:43:19.147][INFO][f][38] WebSocket Connected!
+[22:43:19.148][INFO][D][1] App started
+[22:43:19.171][INFO][i][19] Logged in as 'Roflz'
+[22:43:20.975][INFO][f][47] Starting new Bot1
+[22:43:20.983][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:43:21.209][INFO][i][48] Loading hooks
+[22:43:23.149][INFO][i][48] Using local gamepack(200)
+[22:43:48.950][INFO][Pro Fighter][69] Starting Pro Fighter
+[22:43:50.228][INFO][RandomHandler][69] Starting random: Login
+[22:43:50.226][INFO][Pro Fighter][89] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[22:43:50.262][INFO][Pro Fighter][89] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[22:44:03.580][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[22:44:03.587][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[22:44:04.428][INFO][RandomHandler][69] Starting random: Login
+[22:44:27.781][INFO][Pro Fighter][89] GUI has been initialized. Waiting to be visible...
+[22:46:38.315][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:46:42.946][INFO][D][1] App started
+[22:46:42.945][INFO][f][38] WebSocket Connected!
+[22:46:42.969][INFO][i][19] Logged in as 'Roflz'
+[22:46:44.831][INFO][f][47] Starting new Bot1
+[22:46:44.839][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:46:45.063][INFO][i][48] Loading hooks
+[22:46:47.231][INFO][i][48] Using local gamepack(200)
+[22:47:18.411][INFO][Pro Fighter][115] Starting Pro Fighter
+[22:47:19.587][INFO][RandomHandler][115] Starting random: Login
+[22:47:19.585][INFO][Pro Fighter][125] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[22:47:19.618][INFO][Pro Fighter][125] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[22:47:28.797][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[22:47:28.806][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[22:47:29.769][INFO][RandomHandler][115] Starting random: Login
+[22:47:59.142][INFO][Pro Fighter][125] GUI has been initialized. Waiting to be visible...
+[22:49:20.580][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:49:25.232][INFO][D][1] App started
+[22:49:25.232][INFO][f][38] WebSocket Connected!
+[22:49:25.255][INFO][i][19] Logged in as 'Roflz'
+[22:49:27.076][INFO][f][47] Starting new Bot1
+[22:49:27.083][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:49:27.272][INFO][i][48] Loading hooks
+[22:49:29.301][INFO][i][48] Using local gamepack(200)
+[22:49:55.802][INFO][Pro Fighter][69] Starting Pro Fighter
+[22:49:57.077][INFO][RandomHandler][69] Starting random: Login
+[22:49:57.076][INFO][Pro Fighter][111] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[22:49:57.110][INFO][Pro Fighter][111] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[22:50:05.990][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[22:50:05.998][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[22:50:06.669][INFO][RandomHandler][69] Starting random: Login
+[22:50:30.561][INFO][D][1] EpicBot dir: C:\Users\mahnr\EpicBot
+[22:50:34.632][INFO][Pro Fighter][111] GUI has been initialized. Waiting to be visible...
+[22:50:35.190][INFO][D][1] App started
+[22:50:35.190][INFO][f][38] WebSocket Connected!
+[22:50:35.213][INFO][i][19] Logged in as 'Roflz'
+[22:50:35.930][INFO][Pro Fighter][111] GUI is now open. Press start after configuring the script.
+[22:50:37.043][INFO][f][47] Starting new Bot1
+[22:50:37.051][INFO][h][48] Loading RS config from http://oldschool.runescape.com/jav_config.ws
+[22:50:37.267][INFO][i][48] Loading hooks
+[22:50:39.331][INFO][i][48] Using local gamepack(200)
+[22:51:10.191][INFO][Pro Fighter][68] Starting Pro Fighter
+[22:51:11.464][INFO][RandomHandler][68] Starting random: Login
+[22:51:11.463][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 0 Tiles.
+[22:51:11.495][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 1764 Tiles.
+[22:51:21.739][STDOUT][61] Error: cp.l() di.m() dh.f() | cp:192 di:571 dh:442 ac:389 gg:4472 m:11780 client:6487 client:2943 client:1011 ay:364 ay:343 java.lang.Thread.run | java.lang.ArrayIndexOutOfBoundsException: -1 | 4473 4471 2003
+[22:51:21.749][ERROR][i][61] connection error
+java.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at sun.net.www.http.HttpClient$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.http.HttpClient.privilegedOpenServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URL.openStream(Unknown Source)
+	at lb.l(lb.java:46)
+	at ac.q(ac.java:410)
+	at gg.az(gg.java:4472)
+	at m.jj(m.java:11780)
+	at client.hj(client.java:6487)
+	at client.fp(client.java:2943)
+	at client.ab(client.java:1011)
+	at ay.z(ay.java:364)
+	at ay.run(ay.java:343)
+	at java.lang.Thread.run(Unknown Source)
+[22:51:22.295][INFO][RandomHandler][68] Starting random: Login
+[22:51:49.015][INFO][Pro Fighter][74] GUI has been initialized. Waiting to be visible...
+[22:54:49.273][INFO][Pro Fighter][74] GUI is now open. Press start after configuring the script.
+[22:54:49.310][INFO][Pro Fighter][74] [Aggression Timer] Aggression Area Updated: 3528 Tiles.
