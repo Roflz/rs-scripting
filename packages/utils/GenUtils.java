@@ -24,6 +24,7 @@ public abstract class GenUtils extends LoopScript {
     public static int selectContinueUntilDialogueIsGone() {
         while(dialogueIsOpen()) {
             stx.dialogues().selectContinue();
+            Time.sleep(1_000);
         }
 
         return 300;
@@ -35,24 +36,35 @@ public abstract class GenUtils extends LoopScript {
 
     public static int proceedThroughDialogue() {
         if(dialogueIsOpen()) {
-            if (stx.dialogues().canContinue()) {
+            while(stx.dialogues().canContinue()) {
                 stx.dialogues().selectContinue();
-                return 500;
+                Time.sleep(1_000);
             }
         }
         return 500;
     }
 
+    public static int proceedThroughDialogue(int ...options) {
+        if(dialogueIsOpen()) {
+            while(stx.dialogues().canContinue()) {
+                stx.dialogues().selectContinue();
+                Time.sleep(1_000);
+            }
+            for(int option : options) {
+                if (stx.dialogues().selectOption(option)) { return 500; }
+            }
+        }
+        return 600;
+    }
+
     public static int proceedThroughDialogue(String ...options) {
         if(dialogueIsOpen()) {
-            System.out.println("hi");
-            if (stx.dialogues().canContinue()) {
+            while(stx.dialogues().canContinue()) {
                 stx.dialogues().selectContinue();
-                return 500;
-            } else {
-                for(String option : options) {
-                    if (stx.dialogues().selectOption(option)) { return 500; }
-                }
+                Time.sleep(1_000);
+            }
+            for(String option : options) {
+                if (stx.dialogues().selectOption(option)) { return 500; }
             }
         }
         return 600;
@@ -66,11 +78,10 @@ public abstract class GenUtils extends LoopScript {
                 stx.camera().turnTo(npc.getLocation());
                 npc.interact("Talk-to");
                 Time.sleep(10_000, () -> stx.dialogues().isDialogueOpen());
-            } else {
-                if (stx.dialogues().canContinue()) {
-                    stx.dialogues().selectContinue();
-                    return 500;
-                }
+            }
+            while(stx.dialogues().canContinue()) {
+                stx.dialogues().selectContinue();
+                Time.sleep(1_000);
             }
             return 1000;
         }
@@ -85,15 +96,13 @@ public abstract class GenUtils extends LoopScript {
                 stx.camera().turnTo(npc.getLocation());
                 npc.interact("Talk-to");
                 Time.sleep(10_000, () -> stx.dialogues().isDialogueOpen());
-            } else {
-                if (stx.dialogues().canContinue()) {
-                    stx.dialogues().selectContinue();
-                    return 500;
-                } else {
-                    for(String option : options) {
-                        if (stx.dialogues().selectOption(option)) { return 500; }
-                    }
-                }
+            }
+            while(stx.dialogues().canContinue()) {
+                stx.dialogues().selectContinue();
+                Time.sleep(1_000);
+            }
+            for(String option : options) {
+                if (stx.dialogues().selectOption(option)) { return 500; }
             }
             return 1000;
         }
@@ -108,15 +117,13 @@ public abstract class GenUtils extends LoopScript {
                 stx.camera().turnTo(npc.getLocation());
                 npc.interact("Talk-to");
                 Time.sleep(10_000, () -> stx.dialogues().isDialogueOpen());
-            } else {
-                if (stx.dialogues().canContinue()) {
-                    stx.dialogues().selectContinue();
-                    return 500;
-                } else {
-                    for(Integer option : options) {
-                        if (stx.dialogues().selectOption(option)) { return 500; }
-                    }
-                }
+            }
+            while(stx.dialogues().canContinue()) {
+                stx.dialogues().selectContinue();
+                Time.sleep(1_000);
+            }
+            for(Integer option : options) {
+                if (stx.dialogues().selectOption(option)) { return 500; }
             }
             return 1000;
         }
@@ -131,6 +138,16 @@ public abstract class GenUtils extends LoopScript {
             stx.camera().turnTo(object);
             object.interact(action);
             Time.sleep(10_000, () -> stx.dialogues().isDialogueOpen());
+            return 1000;
+        }
+        return 1000;
+    }
+
+    public static int interactWithNPC(String npcName, String action) {
+        if(stx.npcs().query().named(npcName).actions(action).results().nearest() != null) {
+            NPC npc = stx.npcs().query().named(npcName).actions(action).results().nearest();
+            stx.camera().turnTo(npc);
+            npc.interact(action);
             return 1000;
         }
         return 1000;
