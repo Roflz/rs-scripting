@@ -20,7 +20,7 @@ import java.util.List;
 public class main extends LoopScript {
 
 
-    public static List<String> incantation = Arrays.asList();
+    public static List<String> incantation = Arrays.asList("Aber", "Camerinthum", "Purchai", "Carlem", "Gabindo");
 
     private List<String> startingItemsList = Arrays.asList("Bucket of water", "Bones", "Coins", "Varrock teleport", "Necklace of passage(5)");
     private List<Integer> startingQuantitiesList = Arrays.asList(1, 25, 1, 1, 1);
@@ -137,7 +137,7 @@ public class main extends LoopScript {
                     watDo = "Get incanatation";
                     return 1000;
                 }
-                if(!Constants.GYPSY.contains(getAPIContext().localPlayer().getLocation())) {
+                if(!Constants.GYPSY.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.GYPSY.getCentralTile());
                     return 1000;
                 } else {
@@ -188,6 +188,7 @@ public class main extends LoopScript {
                         }
                     }
                 }
+                break;
 
             case "Speak to Sir Prysin":
                 if(!Constants.SIR_PRYSIN.contains(getAPIContext().localPlayer().getLocation())) {
@@ -212,7 +213,7 @@ public class main extends LoopScript {
                         } else if(getAPIContext().dialogues().selectOption("And why is this a problem?")) {
                             return 1000;
                         } else {
-                            watDo = "Next";
+                            watDo = "Key 1.1";
                             return 1000;
                         }
                     }
@@ -237,7 +238,7 @@ public class main extends LoopScript {
                         System.out.println(getAPIContext().dialogues().getText());
                         if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
-                            return 500;
+                            return 1000;
                         } else if(getAPIContext().dialogues().selectOption("Yes I know, but this is important.")) {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption("There's a demon who wants to invade this city.")) {
@@ -251,7 +252,7 @@ public class main extends LoopScript {
                         } else if(getAPIContext().dialogues().selectOption("Why did he give you one of the keys then?")) {
                             return 1000;
                         } else {
-                            watDo = "Next";
+                            watDo = "Key 2.1";
                             return 1000;
                         }
                     }
@@ -284,9 +285,10 @@ public class main extends LoopScript {
                 } else {
                     Point key = new Tile(3225, 9897, 0).getCentralPoint();
                     getAPIContext().mouse().click(key);
-                    Time.sleep( 5_000, () -> getAPIContext().inventory().contains("Silverlight key"));
+                    Time.sleep( 5_000, () -> getAPIContext().inventory().contains(2401));
                     return 1000;
                 }
+                break;
 
             case "Key 3.1":
                 if(getAPIContext().inventory().contains(2399)) {
@@ -331,7 +333,7 @@ public class main extends LoopScript {
                         }
                     }
                 }
-
+                break;
             case "Give keys to Sir Prysin":
                 if(getAPIContext().inventory().contains(2402)) {
                     watDo = "Go to Delrith";
@@ -357,7 +359,7 @@ public class main extends LoopScript {
                         }
                     }
                 }
-
+                break;
             case "Go to Delrith":
                 if(!getAPIContext().equipment().contains("Silverlight")) {
                     getAPIContext().inventory().interactItem("Wield", "Silverlight");
@@ -426,7 +428,7 @@ public class main extends LoopScript {
         return 1000;
     }
 
-    public static String watDo = "";
+    public static String watDo = "Go to Delrith";
 
     @Override
     public boolean onStart(String... strings) {
