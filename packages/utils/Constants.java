@@ -26,6 +26,12 @@ public interface Constants {
     public final Area VARROCK_MUSEUM_BASEMENT_NORTH_ROOM = new Area(new Tile(1755, 4977, 0), new Tile(1764, 4981, 0));
     public final Area VARROCK_MUSEUM_BASEMENT_WEST_ROOM = new Area(new Tile(1746, 4957, 0), new Tile(1740, 4963, 0));
     public final Area VARROCK_MUSEUM_UPSTAIRS = new Area(new Tile(3268, 3456, 1), new Tile(3252, 3441, 1));
+    public final Area CANAL_BARGE = new Area(new Tile(3351, 3447, 0), new Tile(3365, 3442, 0));
+    public final Area SAWMILL_OPERATOR_VARROCK = new Area(new Tile(3300, 3492, 0), new Tile(3306, 3488, 0));
+    public final Area WOODCUTTING_GUILD_ENTRANCE = new Area(new Tile(1657, 3502, 0), new Tile(1662, 3507, 0));
+    public final Area RUSTY_ANCHOR_INN = new Area(new Tile(3056, 3254, 0), new Tile(3043, 3260, 0));
+    public final Area ODD_OLD_MAN = new Area(new Tile(3355, 3502, 0), new Tile(3366, 3512, 0));
+    public final Area APOTHECARY = new Area(new Tile(3191, 3407, 0), new Tile(3199, 3401, 0));
 
 
 
