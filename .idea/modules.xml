@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Skilling/BirdHouses/BirdHouses.iml" filepath="$PROJECT_DIR$/Skilling/BirdHouses/BirdHouses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utils/BotLauncher/BotLauncher.iml" filepath="$PROJECT_DIR$/Utils/BotLauncher/BotLauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Construction/Construction.iml" filepath="$PROJECT_DIR$/Skilling/Construction/Construction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Constructor/Constructor.iml" filepath="$PROJECT_DIR$/Skilling/Constructor/Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DB.iml" filepath="$PROJECT_DIR$/DB/DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Demon Slayer/Demon Slayer.iml" filepath="$PROJECT_DIR$/Quests/Demon Slayer/Demon Slayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Digsite/Digsite.iml" filepath="$PROJECT_DIR$/Quests/Digsite/Digsite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Druidic Ritual/Druidic Ritual.iml" filepath="$PROJECT_DIR$/Quests/Druidic Ritual/Druidic Ritual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Farmer/Farmer.iml" filepath="$PROJECT_DIR$/Skilling/Farmer/Farmer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Farmer-gui/Farmer-gui.iml" filepath="$PROJECT_DIR$/Skilling/Farmer-gui/Farmer-gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Hazeel Cult/Hazeel Cult.iml" filepath="$PROJECT_DIR$/Quests/Hazeel Cult/Hazeel Cult.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Hosidius Favor/Hosidius Favor.iml" filepath="$PROJECT_DIR$/Skilling/Hosidius Favor/Hosidius Favor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Kudos/Kudos.iml" filepath="$PROJECT_DIR$/Quests/Kudos/Kudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Merlins Crystal/Merlins Crystal.iml" filepath="$PROJECT_DIR$/Quests/Merlins Crystal/Merlins Crystal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Old or obsolete/Old or obsolete.iml" filepath="$PROJECT_DIR$/Old or obsolete/Old or obsolete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Priest in Peril/Priest in Peril.iml" filepath="$PROJECT_DIR$/Quests/Priest in Peril/Priest in Peril.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Rogues Den/Rogues Den.iml" filepath="$PROJECT_DIR$/Skilling/Rogues Den/Rogues Den.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Sapphire Ring Enchanter/Sapphire Ring Enchanter.iml" filepath="$PROJECT_DIR$/Skilling/Sapphire Ring Enchanter/Sapphire Ring Enchanter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/Bone Voyage/Sheep Shearer.iml" filepath="$PROJECT_DIR$/Quests/Bone Voyage/Sheep Shearer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utils/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils/Utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/Wintertodt/Wintertodt.iml" filepath="$PROJECT_DIR$/Skilling/Wintertodt/Wintertodt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/ectotokens/ectotokens.iml" filepath="$PROJECT_DIR$/Skilling/ectotokens/ectotokens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skilling/mule/mule.iml" filepath="$PROJECT_DIR$/Skilling/mule/mule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quests/test/test.iml" filepath="$PROJECT_DIR$/Quests/test/test.iml" />
+    </modules>
+  </component>
+</project>
