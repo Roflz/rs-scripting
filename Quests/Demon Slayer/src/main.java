@@ -19,11 +19,12 @@ import java.util.List;
 @ScriptManifest(name = "Demon Slayer", gameType = GameType.OS)
 public class main extends LoopScript {
 
+    public static String watDo = "";
 
     public static List<String> incantation = Arrays.asList();
 
-    private List<String> startingItemsList = Arrays.asList("Bucket of water", "Bones", "Coins", "Varrock teleport", "Necklace of passage(5)");
-    private List<Integer> startingQuantitiesList = Arrays.asList(1, 25, 1, 1, 1);
+    private List<String> startingItemsList = Arrays.asList("Bucket of water", "Bones", "Coins");
+    private List<Integer> startingQuantitiesList = Arrays.asList(1, 25, 1);
     public static List<String> shoppingListItems = new ArrayList();
     public static List<Integer> shoppingListQuantities = new ArrayList();
     private int geBuyCounter = 0;
@@ -59,16 +60,16 @@ public class main extends LoopScript {
                         getAPIContext().bank().depositEquipment();
                         getAPIContext().bank().withdraw(1, "Bucket of water");
                         getAPIContext().bank().withdraw(1, "Coins");
-                        getAPIContext().bank().withdraw(1, "Necklace of passage(5)");
-                        getAPIContext().inventory().interactItem("Wear", "Necklace of passage(5)");
-                        getAPIContext().bank().withdraw(1, "Varrock teleport");
-                        if(getAPIContext().skills().attack().getCurrentLevel() >= 20) {
-                            getAPIContext().bank().withdraw(1, "Mithril scimitar");
-                            getAPIContext().inventory().interactItem("Wield", "Mithril scimitar");
-                        } else {
-                            getAPIContext().bank().withdraw(1, "Steel scimitar");
-                            getAPIContext().inventory().interactItem("Wield", "Steel scimitar");
-                        }
+//                        getAPIContext().bank().withdraw(1, "Necklace of passage(5)");
+//                        getAPIContext().inventory().interactItem("Wear", "Necklace of passage(5)");
+//                        getAPIContext().bank().withdraw(1, "Varrock teleport");
+//                        if(getAPIContext().skills().attack().getCurrentLevel() >= 20) {
+//                            getAPIContext().bank().withdraw(1, "Mithril scimitar");
+//                            getAPIContext().inventory().interactItem("Wield", "Mithril scimitar");
+//                        } else if(getAPIContext().skills().attack().getCurrentLevel() >= 20){
+//                            getAPIContext().bank().withdraw(1, "Steel scimitar");
+//                            getAPIContext().inventory().interactItem("Wield", "Steel scimitar");
+//                        }
                         watDo = "Start Quest";
                         return 500;
                     } else {
@@ -104,6 +105,11 @@ public class main extends LoopScript {
                         GEUtils.buyItemsFromShoppingList(shoppingListItems, shoppingListQuantities, 1000);
                         watDo = "Wait for sales from GE";
                         return 500;
+                    } else {
+                        getAPIContext().grandExchange().collectToBank();
+                        getAPIContext().grandExchange().close();
+                        watDo = "Bank";
+                        return 500;
                     }
                 }
                 break;
@@ -134,8 +140,13 @@ public class main extends LoopScript {
 
             case "Start Quest":
                 if(getAPIContext().quests().isStarted(IQuestAPI.Quest.DEMON_SLAYER)) {
-                    watDo = "Get incanatation";
+                    watDo = "Get incantation";
                     return 1000;
+                }
+                System.out.println(getAPIContext().localPlayer().getLocation());
+                if(getAPIContext().dialogues().canContinue()) {
+                    getAPIContext().dialogues().selectContinue();
+                    return 500;
                 }
                 if(!Constants.GYPSY.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.GYPSY.getCentralTile());
@@ -162,39 +173,47 @@ public class main extends LoopScript {
 
             case "Get incantation":
                 if(getAPIContext().dialogues().isDialogueOpen()) {
-                    if(getAPIContext().dialogues().getText().contains("Have you got that?")) {
+                    System.out.println(getAPIContext().dialogues().getText());
+                    if(getAPIContext().dialogues().getText().contains("Alright, I think I've got it now")) {
+//                    if(getAPIContext().dialogues().getText().contains("Have you got that?")) {
                         System.out.println(getAPIContext().dialogues().getText());
-                        String incant =  getAPIContext().dialogues().getText().replace("Have you got that?", "");
-                        incant = incant.replace(".", "");
+                        String incant =  getAPIContext().dialogues().getText().replace("Have", "");
+                        incant =  incant.replace("you", "");
+                        incant =  incant.replace("got", "");
+                        incant =  incant.replace("that?", "");
+                        incant = incant.replace("Alright, I think I've  it now, it goes....", "");
+                        incant = incant.replace(".", " ");
                         incantation = Arrays.asList(incant.split(" "));
+                        System.out.println(incantation);
+                        System.out.println(incant);
+//                        for (int i = 0; i < incantation.size(); i++){
+//                            System.out.println(incantation.get(i));
+//                            if(incantation.get(i).equals("") || incantation.get(i) == null) {
+//                                System.out.println("hi");
+//                                incantation.
+//                                incantation.remove(i);
+//                            }
+//                        }
+//                        System.out.println(incantation);
                         watDo = "Speak to Sir Prysin";
                         return 1000;
                     }
-                }
-                if(!Constants.GYPSY.contains(getAPIContext().localPlayer().getLocation())) {
-                    getAPIContext().webWalking().walkTo(Constants.GYPSY.getCentralTile());
-                    return 1000;
-                } else {
-                    NPC gypsy = getAPIContext().npcs().query().named("Gypsy Aris").results().nearest();
-                    if(!getAPIContext().dialogues().isDialogueOpen()) {
-                        gypsy.interact("Talk-to");
-                        Time.sleep( 5_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                    } else {
-                        if(getAPIContext().dialogues().canContinue()) {
-                            getAPIContext().dialogues().selectContinue();
-                            return 500;
-                        } else if(getAPIContext().dialogues().selectOption("What is the magical incantation?")) {
-                            return 1000;
-                        }
+                    if(getAPIContext().dialogues().canContinue()) {
+                        getAPIContext().dialogues().selectContinue();
+                        return 3000;
+                    } else if(getAPIContext().dialogues().selectOption("What is the magical incantation?")) {
+                        return 1000;
                     }
                 }
+                break;
 
             case "Speak to Sir Prysin":
-                if(!Constants.SIR_PRYSIN.contains(getAPIContext().localPlayer().getLocation())) {
+                if(!Constants.SIR_PRYSIN.contains(getAPIContext().localPlayer().getLocation()) && getAPIContext().npcs().query().named("Sir Prysin").results().nearest() == null) {
                     getAPIContext().webWalking().walkTo(Constants.SIR_PRYSIN.getCentralTile());
                     return 1000;
                 } else {
                     NPC prysin = getAPIContext().npcs().query().named("Sir Prysin").results().nearest();
+                    getAPIContext().webWalking().walkTo(prysin.getLocation());
                     if(!getAPIContext().dialogues().isDialogueOpen()) {
                         prysin.interact("Talk-to");
                         Time.sleep( 5_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -202,7 +221,7 @@ public class main extends LoopScript {
                     } else  {
                         if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
-                            return 500;
+                            return 1000;
                         } else if(getAPIContext().dialogues().selectOption("Gypsy Aris said I should come and talk to you.")) {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption("I need to find Silverlight.")) {
@@ -211,14 +230,18 @@ public class main extends LoopScript {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption("And why is this a problem?")) {
                             return 1000;
-                        } else {
-                            watDo = "Next";
+                        } else if(getAPIContext().dialogues().hasOption("Can you give me your key?")) {
+                            watDo = "Key 1.1";
                             return 1000;
                         }
                     }
                 }
 
             case "Key 1.1":
+                if(getAPIContext().inventory().contains(2400)) {
+                    watDo = "Key 2.1";
+                    return 1000;
+                }
                 if(!Constants.CAPTAIN_ROVIN.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.CAPTAIN_ROVIN.getCentralTile());
                     if (!(getAPIContext().localPlayer().getLocation() == new Tile(3200, 3500, 1))) {
@@ -237,7 +260,7 @@ public class main extends LoopScript {
                         System.out.println(getAPIContext().dialogues().getText());
                         if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
-                            return 500;
+                            return 1000;
                         } else if(getAPIContext().dialogues().selectOption("Yes I know, but this is important.")) {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption("There's a demon who wants to invade this city.")) {
@@ -251,11 +274,11 @@ public class main extends LoopScript {
                         } else if(getAPIContext().dialogues().selectOption("Why did he give you one of the keys then?")) {
                             return 1000;
                         } else {
-                            watDo = "Next";
-                            return 1000;
+                            getAPIContext().dialogues().selectOption(0);
                         }
                     }
                 }
+                break;
 
             case "Key 2.1":
                 if(!getAPIContext().inventory().contains("Bucket of water")) {
@@ -284,16 +307,17 @@ public class main extends LoopScript {
                 } else {
                     Point key = new Tile(3225, 9897, 0).getCentralPoint();
                     getAPIContext().mouse().click(key);
-                    Time.sleep( 5_000, () -> getAPIContext().inventory().contains("Silverlight key"));
+                    Time.sleep( 5_000, () -> getAPIContext().inventory().contains(2401));
                     return 1000;
                 }
+                break;
 
             case "Key 3.1":
                 if(getAPIContext().inventory().contains(2399)) {
                     watDo = "Give keys to Sir Prysin";
                     return 1000;
                 }
-                if(getAPIContext().inventory().getCount("Bones") < 25 && getAPIContext().inventory().contains(2399)) {
+                if(getAPIContext().inventory().getCount("Bones") < 25 && !getAPIContext().inventory().contains(2399)) {
                     if(!getAPIContext().bank().isOpen()) {
                         getAPIContext().webWalking().setUseTeleports(false);
                         BankUtils.goToClosestBank();
@@ -321,7 +345,7 @@ public class main extends LoopScript {
                         System.out.println(getAPIContext().dialogues().getText());
                         if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
-                            return 500;
+                            return 1000;
                         } else if(getAPIContext().dialogues().selectOption("I need to get a key given to you by Sir Prysin.")) {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption("Well, have you got any keys knocking around?")) {
@@ -331,13 +355,14 @@ public class main extends LoopScript {
                         }
                     }
                 }
+                break;
 
             case "Give keys to Sir Prysin":
-                if(getAPIContext().inventory().contains(2402)) {
+                if(getAPIContext().inventory().contains(2402) || getAPIContext().equipment().contains(2402)) {
                     watDo = "Go to Delrith";
                     return 1000;
                 }
-                if(!Constants.SIR_PRYSIN.contains(getAPIContext().localPlayer().getLocation())) {
+                if(!Constants.SIR_PRYSIN.contains(getAPIContext().localPlayer().getLocation()) && getAPIContext().npcs().query().named("Sir Prysin").results().nearest() == null) {
                     getAPIContext().webWalking().walkTo(Constants.SIR_PRYSIN.getCentralTile());
                     if (!(getAPIContext().localPlayer().getLocation() == new Tile(3104, 3161, 1))) {
                         getAPIContext().objects().query().named("Staircase").results().nearest().interact("Climb-down");
@@ -346,6 +371,7 @@ public class main extends LoopScript {
                     return 1000;
                 } else {
                     NPC prysin = getAPIContext().npcs().query().named("Sir Prysin").results().nearest();
+                    getAPIContext().webWalking().walkTo(prysin.getLocation());
                     if(!getAPIContext().dialogues().isDialogueOpen()) {
                         prysin.interact("Talk-to");
                         Time.sleep( 5_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -382,22 +408,44 @@ public class main extends LoopScript {
                 }
                 if(!Constants.DELRITH.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.DELRITH.getCentralTile());
+                    watDo = "Start fight";
+                    return 1000;
+                }
+                break;
+
+            case "Start fight":
+                if(getAPIContext().dialogues().isDialogueOpen()) {
+                    if (getAPIContext().dialogues().canContinue()) {
+                        getAPIContext().dialogues().selectContinue();
+                        return 500;
+                    }
+                } else {
                     watDo = "Kill Delrith";
                     return 1000;
                 }
                 break;
 
             case "Kill Delrith":
+                if(getAPIContext().dialogues().getText().contains("back into the dark dimension from which he came.")) {
+                    watDo = "Done";
+                    return 1000;
+                }
                 if(getAPIContext().dialogues().isDialogueOpen()) {
                     if(getAPIContext().dialogues().canContinue()) {
                         getAPIContext().dialogues().selectContinue();
                         return 500;
                     } else
                         for(String line : incantation) {
-                            getAPIContext().dialogues().selectOption(line);
-                            Time.sleep(5_000, () -> getAPIContext().dialogues().getText().contains(line));
+                            System.out.println(line);
+                            if(getAPIContext().dialogues().hasOption(line)) {
+                                getAPIContext().dialogues().selectOption(line);
+                                try {
+                                    Thread.sleep(5_000);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                            }
                         }
-                        watDo = "Done";
                         return 1000;
                 } else {
                     NPC delrith = getAPIContext().npcs().query().named("Delrith").results().nearest();
@@ -406,6 +454,7 @@ public class main extends LoopScript {
                         return 1000;
                     }
                     if(!getAPIContext().localPlayer().isInCombat()) {
+                        getAPIContext().camera().turnTo(delrith.getLocation());
                         delrith.interact("Attack");
                         return 1000;
                     }
@@ -413,6 +462,10 @@ public class main extends LoopScript {
                 break;
 
             case "Done":
+                if(getAPIContext().dialogues().canContinue()) {
+                    getAPIContext().dialogues().selectContinue();
+                    return 1000;
+                }
                 if(getAPIContext().widgets().get(153).isVisible()) {
                     getAPIContext().widgets().get(153).getChild(16).interact("Close");
                     return 1000;
@@ -425,8 +478,6 @@ public class main extends LoopScript {
         }
         return 1000;
     }
-
-    public static String watDo = "";
 
     @Override
     public boolean onStart(String... strings) {

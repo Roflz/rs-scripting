@@ -64,7 +64,7 @@ public class main extends LoopScript {
                     } else {
                         if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
-                            return 500;
+                            return 1000;
                         } else if(getAPIContext().dialogues().selectOption("What's wrong?")) {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption("Yes, of course, I'd be happy to help.")) {
@@ -88,15 +88,15 @@ public class main extends LoopScript {
                         clivet.interact("Talk-to");
                         Time.sleep( 5_000, () -> getAPIContext().dialogues().isDialogueOpen());
                     } else {
-                        if(getAPIContext().dialogues().canContinue()) {
+                        if(getAPIContext().dialogues().getText().contains("Oh no... not you again.")) {
+                            watDo = "Leave Cave";
+                            return 1000;
+                        } else if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
                             Time.sleep(5_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                            return 500;
+                            return 1000;
                         } else if(getAPIContext().dialogues().selectOption(0)) {
                             Time.sleep(5_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                            return 1000;
-                        } else {
-                            watDo = "Leave Cave";
                             return 1000;
                         }
                     }
@@ -235,6 +235,7 @@ public class main extends LoopScript {
                     return 1000;
                 }
                 if(getAPIContext().groundItems().query().named("Carnillean armour").results().nearest() != null) {
+                    getAPIContext().camera().turnTo(getAPIContext().groundItems().query().named("Carnillean armour").results().nearest().getLocation());
                     getAPIContext().groundItems().query().named("Carnillean armour").results().nearest().interact("Take");
                     return 1000;
                 }
@@ -247,6 +248,7 @@ public class main extends LoopScript {
                     Time.sleep(7_000, () -> getAPIContext().localPlayer().isAttacking());
                     return 1000;
                 }
+                break;
 
             case "Board raft back":
                 if(!getAPIContext().dialogues().canContinue()) {
@@ -261,6 +263,7 @@ public class main extends LoopScript {
                     watDo = "Leave Cave again";
                     return 1000;
                 }
+                break;
 
             case "Leave Cave again":
                 if(!Constants.CLIVET_CAVE.contains(getAPIContext().localPlayer().getLocation())) {
@@ -294,9 +297,10 @@ public class main extends LoopScript {
                     if (getAPIContext().dialogues().canContinue()) {
                         getAPIContext().dialogues().selectContinue();
                         Time.sleep(5_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                        return 500;
+                        return 1000;
                     }
                 }
+                break;
 
             case "Talk to Ceril":
                 if(getAPIContext().dialogues().getText().contains("Jones smirks at you")) {
@@ -315,6 +319,7 @@ public class main extends LoopScript {
                         return 500;
                     }
                 }
+                break;
 
             case "Gather evidence":
                 if(getAPIContext().quests().isCompleted(IQuestAPI.Quest.HAZEEL_CULT)) {
@@ -334,9 +339,9 @@ public class main extends LoopScript {
                 if(cupboard.hasAction("Search") && !getAPIContext().dialogues().isDialogueOpen()) {
                     cupboard.interact("Search");
                     Time.sleep( 5_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                    watDo = "dfsdf";
                     return 1000;
                 }
+                break;
 
             case "Done":
                 if(getAPIContext().widgets().get(153).isVisible()) {
@@ -354,7 +359,7 @@ public class main extends LoopScript {
         return 1000;
     }
 
-    public static String watDo = "";
+    public static String watDo = "Go back to house";
 
     @Override
     public boolean onStart(String... strings) {

@@ -3,12 +3,14 @@ import com.epicbot.api.shared.entity.GroundItem;
 import com.epicbot.api.shared.entity.NPC;
 import com.epicbot.api.shared.entity.SceneObject;
 import com.epicbot.api.shared.methods.IQuestAPI;
+import com.epicbot.api.shared.model.Tile;
 import com.epicbot.api.shared.script.LoopScript;
 import com.epicbot.api.shared.script.ScriptManifest;
 import com.epicbot.api.shared.util.time.Time;
 import com.sun.org.apache.xerces.internal.xinclude.MultipleScopeNamespaceSupport;
 import javafx.scene.Scene;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +18,7 @@ import java.util.List;
 @ScriptManifest(name = "Digsite", gameType = GameType.OS)
 public class main extends LoopScript {
 
-    public static String watDo = "Done";
+    public static String watDo = "";
 
     private List<String> startingItemsList = Arrays.asList("Pestle and mortar", "Vial", "Tinderbox", "Cup of tea", "Rope", "Uncut opal", "Charcoal", "Varrock teleport");
     private List<Integer> startingQuantitiesList = Arrays.asList(1, 1, 1, 1, 2, 1, 1, 2);
@@ -143,7 +145,9 @@ public class main extends LoopScript {
 
             case "Go to Varrock Museum":
                 if(!Constants.VARROCK_MUSEUM.contains(getAPIContext().localPlayer().getLocation())) {
+                    getAPIContext().webWalking().setUseTeleports(false);
                     getAPIContext().webWalking().walkTo(Constants.VARROCK_MUSEUM.getCentralTile());
+                    getAPIContext().webWalking().setUseTeleports(true);
                     return 1000;
                 } else {
                     NPC curator = getAPIContext().npcs().query().named("Curator Haig Halen").results().nearest();
@@ -165,6 +169,10 @@ public class main extends LoopScript {
                 break;
 
             case "Take exam":
+                if(getAPIContext().dialogues().getText().contains("Why don't you use the resources here?")) {
+                    watDo = "Get Teddy Bear";
+                    return 1000;
+                }
                 if(!Constants.EXAM_CENTRE.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.EXAM_CENTRE.getCentralTile());
                     return 1000;
@@ -179,15 +187,16 @@ public class main extends LoopScript {
                             return 1000;
                         } else if(getAPIContext().dialogues().selectOption(0)) {
                             return 1000;
-                        } else {
-                            watDo = "Get Teddy Bear";
-                            return 1000;
                         }
                     }
                 }
                 break;
 
             case "Get Teddy Bear":
+                if(getAPIContext().inventory().contains("Teddy")) {
+                    watDo = "Get panning tray";
+                    return 1000;
+                }
                 if(!Constants.BLUE_URN.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.BLUE_URN.getCentralTile());
                     return 1000;
@@ -195,11 +204,14 @@ public class main extends LoopScript {
                     SceneObject bush = getAPIContext().objects().query().named("Bush").results().nearest();
                     bush.interact("Search");
                     Time.sleep(5_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                } else {
-                    watDo = "Get panning tray";
                 }
+                break;
 
             case "Get panning tray":
+                if(getAPIContext().inventory().contains("Panning tray")) {
+                    watDo = "Talk to panning guide";
+                    return 1000;
+                }
                 if(!Constants.PANNING_TRAY.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.PANNING_TRAY.getCentralTile());
                     return 1000;
@@ -207,12 +219,15 @@ public class main extends LoopScript {
                     GroundItem tray = getAPIContext().groundItems().query().named("Panning tray").results().nearest();
                     tray.interact("Take");
                     Time.sleep(5_000, () -> getAPIContext().inventory().contains("Panning tray"));
-                } else {
-                    watDo = "Talk to panning guide";
+                    return 1000;
                 }
-
+                break;
 
             case "Talk to panning guide":
+                if(!getAPIContext().inventory().contains("Cup of tea")) {
+                    watDo = "Pan for shiny cup";
+                    return 1000;
+                }
                 NPC panningGuide = getAPIContext().npcs().query().named("Panning guide").results().nearest();
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     panningGuide.interact("Talk-to");
@@ -221,11 +236,10 @@ public class main extends LoopScript {
                     if(getAPIContext().dialogues().canContinue()) {
                         getAPIContext().dialogues().selectContinue();
                         Time.sleep(2_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                    } else {
-                        watDo = "Pan for shiny cup";
                     }
                     return 1000;
                 }
+                break;
 
             case "Pan for shiny cup":
                 if(!getAPIContext().localPlayer().getLocation().contains(Constants.PANNING_SPOT.getCentralPoint())) {
@@ -245,6 +259,10 @@ public class main extends LoopScript {
                 }
 
             case "Steal from workman":
+                if(getAPIContext().inventory().contains("Animal skull") && getAPIContext().inventory().contains("Specimen brush")) {
+                    watDo = "Give Teddy Bear to girl";
+                    return 1000;
+                }
                 if(!Constants.ANIMAL_SKULL_WORKMAN.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.ANIMAL_SKULL_WORKMAN.getCentralTile());
                     return 1000;
@@ -253,10 +271,8 @@ public class main extends LoopScript {
                 if(!getAPIContext().inventory().contains("Animal skull") || !getAPIContext().inventory().contains("Specimen brush")) {
                     workman.interact("Steal-from");
                     return 1000;
-                } else {
-                    watDo = "Give Teddy Bear to girl";
-                    return 1000;
                 }
+                break;
 
             case "Give Teddy Bear to girl":
                 if(!Constants.STUDENT1.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
@@ -264,6 +280,7 @@ public class main extends LoopScript {
                     return 1000;
                 }
                 NPC student1 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student1.getLocation());
                 if(getAPIContext().inventory().contains("Teddy")) {
                     if(!getAPIContext().dialogues().isDialogueOpen()) {
                         student1.interact("Talk-to");
@@ -281,7 +298,7 @@ public class main extends LoopScript {
                         Time.sleep(2_000, () -> getAPIContext().dialogues().isDialogueOpen());
                     }
                     return 1000;
-                } else { watDo = "Next"; }
+                } else { watDo = "Give cup to student"; }
                 return 1000;
 
             case "Give cup to student":
@@ -290,6 +307,7 @@ public class main extends LoopScript {
                     return 1000;
                 }
                 NPC student2 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student2.getLocation());
                 if(getAPIContext().inventory().contains("Special cup")) {
                     if(!getAPIContext().dialogues().isDialogueOpen()) {
                         student2.interact("Talk-to");
@@ -316,6 +334,7 @@ public class main extends LoopScript {
                     return 1000;
                 }
                 NPC student3 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student3.getLocation());
                 if(getAPIContext().inventory().contains("Animal skull")) {
                     if(!getAPIContext().dialogues().isDialogueOpen()) {
                         student3.interact("Talk-to");
@@ -338,8 +357,13 @@ public class main extends LoopScript {
 
             case "Take lvl 1 exam":
                 if (getAPIContext().inventory().contains("Level 1 certificate")){
-                    watDo = "Talk to student1 again";
-                    return 1000;
+                    if(getAPIContext().dialogues().canContinue()) {
+                        getAPIContext().dialogues().selectContinue();
+                        return 1000;
+                    } else {
+                        watDo = "Talk to student1 again";
+                        return 1000;
+                    }
                 }
                 if(!Constants.EXAM_CENTRE.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.EXAM_CENTRE.getCentralTile());
@@ -369,12 +393,14 @@ public class main extends LoopScript {
                 if(getAPIContext().dialogues().getText().contains("thanks for your advice")) {
                     getAPIContext().dialogues().selectContinue();
                     watDo = "Talk to student2 again";
+                    return 1000;
                 }
                 if(!Constants.STUDENT1.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT1.getCentralTile());
                     return 1000;
                 }
                 student1 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student1.getLocation());
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     student1.interact("Talk-to");
                     Time.sleep( 15_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -390,12 +416,14 @@ public class main extends LoopScript {
                 if(getAPIContext().dialogues().getText().contains("Thanks for the info")) {
                     getAPIContext().dialogues().selectContinue();
                     watDo = "Talk to student3 again";
+                    return 1000;
                 }
                 if(!Constants.STUDENT2.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT2.getCentralTile());
                     return 1000;
                 }
                 student2 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student2.getLocation());
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     student2.interact("Talk-to");
                     Time.sleep( 15_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -411,12 +439,14 @@ public class main extends LoopScript {
                 if(getAPIContext().dialogues().getText().contains("remember that")) {
                     getAPIContext().dialogues().selectContinue();
                     watDo = "Take lvl 2 exam";
+                    return 1000;
                 }
                 if(!Constants.STUDENT3.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT3.getCentralTile());
                     return 1000;
                 }
                 student3 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student3.getLocation());
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     student3.interact("Talk-to");
                     Time.sleep( 15_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -430,8 +460,13 @@ public class main extends LoopScript {
 
             case "Take lvl 2 exam":
                 if (getAPIContext().inventory().contains("Level 2 certificate")){
-                    watDo = "Talk to student1 one more time";
-                    return 1000;
+                    if(getAPIContext().dialogues().canContinue()) {
+                        getAPIContext().dialogues().selectContinue();
+                        return 1000;
+                    } else {
+                        watDo = "Talk to student1 one more time";
+                        return 1000;
+                    }
                 }
                 if(!Constants.EXAM_CENTRE.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.EXAM_CENTRE.getCentralTile());
@@ -462,12 +497,14 @@ public class main extends LoopScript {
                 if(getAPIContext().dialogues().getText().contains("thanks for your advice")) {
                     getAPIContext().dialogues().selectContinue();
                     watDo = "Talk to student2 one more time";
+                    return 1000;
                 }
                 if(!Constants.STUDENT1.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT1.getCentralTile());
                     return 1000;
                 }
                 student1 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student1.getLocation());
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     student1.interact("Talk-to");
                     Time.sleep( 15_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -483,12 +520,14 @@ public class main extends LoopScript {
                 if(getAPIContext().dialogues().getText().contains("Thanks for the info")) {
                     getAPIContext().dialogues().selectContinue();
                     watDo = "Talk to student3 one more time";
+                    return 1000;
                 }
                 if(!Constants.STUDENT2.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT2.getCentralTile());
                     return 1000;
                 }
                 student2 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student2.getLocation());
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     student2.interact("Talk-to");
                     Time.sleep( 15_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -504,12 +543,14 @@ public class main extends LoopScript {
                 if(getAPIContext().dialogues().getText().contains("remember that")) {
                     getAPIContext().dialogues().selectContinue();
                     watDo = "Take lvl 3 exam";
+                    return 1000;
                 }
                 if(!Constants.STUDENT3.contains(getAPIContext().localPlayer().getLocation()) && !getAPIContext().dialogues().isDialogueOpen()) {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT3.getCentralTile());
                     return 1000;
                 }
                 student3 = getAPIContext().npcs().query().named("Student").results().nearest();
+                getAPIContext().camera().turnTo(student3.getLocation());
                 if(!getAPIContext().dialogues().isDialogueOpen()) {
                     student3.interact("Talk-to");
                     Time.sleep( 15_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -523,8 +564,13 @@ public class main extends LoopScript {
 
             case "Take lvl 3 exam":
                 if (getAPIContext().inventory().contains("Level 3 certificate")){
-                    watDo = "Get rock pick and specimen jar";
-                    return 1000;
+                    if(getAPIContext().dialogues().canContinue()) {
+                        getAPIContext().dialogues().selectContinue();
+                        return 1000;
+                    } else {
+                        watDo = "Get rock pick and specimen jar";
+                        return 1000;
+                    }
                 }
                 if(!Constants.EXAM_CENTRE.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.EXAM_CENTRE.getCentralTile());
@@ -552,12 +598,16 @@ public class main extends LoopScript {
                 break;
 
             case "Get rock pick and specimen jar":
+                if(getAPIContext().inventory().contains("Rock pick") && getAPIContext().inventory().contains("Specimen jar")) {
+                    watDo = "Dig for ancient talisman";
+                    return 1000;
+                }
                 if(!Constants.WESTERN_EXAM_ROOM.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.WESTERN_EXAM_ROOM.getCentralTile());
                     return 1000;
                 }
                 List<SceneObject> cupboards = getAPIContext().objects().query().named("Cupboard").results().nearestList();
-                if(!getAPIContext().inventory().contains("Rock pick") && !getAPIContext().inventory().contains("Specimen jar")) {
+                if(!getAPIContext().inventory().contains("Rock pick") || !getAPIContext().inventory().contains("Specimen jar")) {
                     for(SceneObject cupboard : cupboards) {
                         cupboard.interact("Open");
                         Time.sleep(5_000, () -> getAPIContext().objects().query().named("Cupboard").results().nearest().hasAction("Search"));
@@ -565,15 +615,20 @@ public class main extends LoopScript {
                         Time.sleep(3_000, () -> getAPIContext().dialogues().isDialogueOpen());
                     }
                     return 1000;
-                } else {
-                    watDo = "Dig for ancient talisman";
-                    return 1000;
                 }
+                break;
 
             case "Dig for ancient talisman":
+                if(getAPIContext().inventory().contains("Ancient talisman")) {
+                    watDo = "Talk to archaeologist";
+                    return 1000;
+                }
                 if(!Constants.NORTHEAST_DIG.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.NORTHEAST_DIG.getCentralTile());
                     return 1000;
+                }
+                else {
+                    getAPIContext().inventory().dropAllExcept("Ancient talisman", "Pestle and mortar", "Vial", "Tinderbox", "Cup of tea", "Rope", "Uncut opal", "Charcoal", "Varrock teleport", "Trowel", "Level 1 certificate", "Level 2 certificate", "Level 3 certificate", "Specimen brush", "Bucket", "Specimen jar", "Rock pick", "Panning tray");
                 }
                 SceneObject soil = getAPIContext().objects().query().named("Soil").results().nearest();
                 if(!getAPIContext().inventory().contains("Ancient talisman")) {
@@ -581,19 +636,13 @@ public class main extends LoopScript {
                     soil.interact("Use");
                     Time.sleep(5_000, () -> getAPIContext().localPlayer().isAnimating());
                     Time.sleep(5_000, () -> !getAPIContext().localPlayer().isAnimating());
-                    if(getAPIContext().inventory().contains("Ancient talisman")) {
-                        watDo = "Talk to archaeologist";
-                        return 1000;
-                    } else {
-                        getAPIContext().inventory().dropAllExcept("Ancient talisman", "Pestle and mortar", "Vial", "Tinderbox", "Cup of tea", "Rope", "Uncut opal", "Charcoal", "Varrock teleport", "Trowel", "Level 1 certificate", "Level 2 certificate", "Level 3 certificate", "Specimen brush", "Bucket", "Specimen jar", "Rock pick", "Panning tray");
-                        return 1000;
-                    }
+                    return 1000;
                 }
                 break;
 
             case "Talk to archaeologist":
                 if(getAPIContext().inventory().contains("Invitation letter")) {
-                    watDo = "Next";
+                    watDo = "Use invitation on workman";
                     return 1000;
                 }
                 if(!Constants.EXAM_CENTRE.contains(getAPIContext().localPlayer().getLocation()) && !Constants.WESTERN_EXAM_ROOM.contains(getAPIContext().localPlayer().getLocation())) {
@@ -601,6 +650,7 @@ public class main extends LoopScript {
                     return 1000;
                 } else {
                     NPC archaeologist = getAPIContext().npcs().query().named("Archaeological expert").results().nearest();
+                    getAPIContext().camera().turnTo(archaeologist.getLocation());
                     if(!getAPIContext().dialogues().isDialogueOpen()) {
                         archaeologist.interact("Talk-to");
                         Time.sleep( 5_000, () -> getAPIContext().dialogues().isDialogueOpen());
@@ -623,6 +673,7 @@ public class main extends LoopScript {
                     getAPIContext().webWalking().walkTo(Constants.STUDENT3.getCentralTile());
                     NPC workman2 = getAPIContext().npcs().query().named("Digsite workman").results().nearest();
                     getAPIContext().inventory().selectItem("Invitation letter");
+                    getAPIContext().camera().turnTo(workman2.getLocation());
                     workman2.interact();
                     Time.sleep(10_000, () -> getAPIContext().dialogues().isDialogueOpen());
                     return 1000;
@@ -631,8 +682,13 @@ public class main extends LoopScript {
                     getAPIContext().dialogues().selectContinue();
                     return 1000;
                 }
+                break;
 
             case "Use rope on western winch":
+                if(getAPIContext().inventory().getCount("Rope") == 1) {
+                    watDo = "Get arcenia root";
+                    return 1000;
+                }
                 if(!Constants.WESTERN_WINCH.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.WESTERN_WINCH.getCentralTile());
                     return 1000;
@@ -642,10 +698,8 @@ public class main extends LoopScript {
                     getAPIContext().inventory().selectItem("Rope");
                     winch.interact();
                     return 1000;
-                } else {
-                    watDo = "Get arcenia root";
-                    return 1000;
                 }
+                break;
 
             case "Get arcenia root":
                 if(Constants.WESTERN_WINCH.contains(getAPIContext().localPlayer().getLocation())) {
@@ -672,6 +726,7 @@ public class main extends LoopScript {
                     watDo = "Use rope on Northeast winch";
                     return 1000;
                 }
+                break;
 
             case "Use rope on Northeast winch":
                 if(!Constants.NORTHEAST_WINCH.contains(getAPIContext().localPlayer().getLocation())) {
@@ -717,42 +772,48 @@ public class main extends LoopScript {
                         return 1000;
                     }
                 }
+                break;
 
             case "Get Chemical powder":
                 if(!Constants.PANNING_TRAY.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.PANNING_TRAY.getCentralTile());
                     return 1000;
                 } else if(!getAPIContext().inventory().contains("Chemical powder")){
-//                    getAPIContext().inventory().selectItem("Chest key");
+                    getAPIContext().inventory().selectItem("Chest key");
                     SceneObject chest = getAPIContext().objects().query().named("Chest").results().nearest();
-//                    chest.interact("Use");
+                    chest.interact("Use");
                     Time.sleep(5_000, () -> getAPIContext().objects().query().named("Chest").results().nearest().hasAction("Search"));
                     chest.interact("Search");
                     return 1000;
                 } else {
-                    watDo = "Trowel the barrel";
-                    return 1000;
+                        getAPIContext().dialogues().selectContinue();
+                        watDo = "Trowel the barrel";
+                        return 1000;
                 }
 
             case "Trowel the barrel":
-                SceneObject barrel = getAPIContext().objects().query().named("Barrel").actions("Search").results().nearest();
-                getAPIContext().inventory().selectItem("Trowel");
-                barrel.interact();
-                Time.sleep(7_000, () -> getAPIContext().dialogues().isDialogueOpen());
-                if(getAPIContext().dialogues().isDialogueOpen()) {
+                if(!getAPIContext().dialogues().isDialogueOpen()) {
+                    SceneObject barrel = getAPIContext().objects().query().named("Barrel").actions("Search").results().nearest();
+                    getAPIContext().inventory().selectItem("Trowel");
+                    getAPIContext().camera().turnTo(barrel.getLocation());
+                    barrel.interact();
+                    return 3000;
+                } else {
                     if(getAPIContext().dialogues().canContinue()) {
                         getAPIContext().dialogues().selectContinue();
                         watDo = "Collect liquid and grind charcoal";
                         return 1000;
                     }
                 }
+                break;
 
             case "Collect liquid and grind charcoal":
-                barrel = getAPIContext().objects().query().named("Barrel").actions("Search").results().nearest();
+                SceneObject barrel = getAPIContext().objects().query().named("Barrel").actions("Search").results().nearest();
                 if(!getAPIContext().inventory().contains("Unidentified liquid")) {
                     getAPIContext().inventory().selectItem("Vial");
                     barrel.interact();
                     Time.sleep(5_000, () -> getAPIContext().inventory().contains("Unidentified liquid"));
+                    return 1000;
                 } else if(!getAPIContext().inventory().contains("Ground charcoal")) {
                     getAPIContext().inventory().selectItem("Pestle and mortar");
                     getAPIContext().inventory().getItem("Charcoal").interact();
@@ -760,6 +821,7 @@ public class main extends LoopScript {
                     watDo = "Identify items";
                     return 1000;
                 }
+                break;
 
             case "Identify items":
                 if(getAPIContext().inventory().contains("Nitroglycerin") && getAPIContext().inventory().contains("Ammonium nitrate")) {
@@ -833,6 +895,7 @@ public class main extends LoopScript {
                     Time.sleep(5_000, () -> getAPIContext().localPlayer().getY() > 9000);
                     return 1000;
                 }
+                break;
 
             case "Blow up bricks and take stone tablet":
                 if(getAPIContext().inventory().contains("Stone tablet")) {
@@ -859,12 +922,15 @@ public class main extends LoopScript {
                     return 1000;
                 }
                 if(getAPIContext().objects().query().named("Brick").results().nearest() == null && !getAPIContext().inventory().contains("Stone tablet")) {
+                    Point key = new Tile(3378, 9761, 0).getCentralPoint();
+                    getAPIContext().mouse().click(key);
                     SceneObject tablet = getAPIContext().objects().query().named("Stone Tablet").results().nearest();
                     getAPIContext().camera().turnTo(tablet.getLocation());
                     tablet.interact("Take");
                     Time.sleep(5_000, () -> getAPIContext().inventory().contains("Stone tablet"));
                     return 1000;
                 }
+                break;
 
             case "Show tablet to archaeological expert":
                 if(getAPIContext().widgets().get(153).isVisible()) {
@@ -889,13 +955,19 @@ public class main extends LoopScript {
                         }
                     }
                 }
+                break;
 
             case "Done":
                 if(getAPIContext().widgets().get(153).isVisible()) {
                     getAPIContext().widgets().get(153).getChild(16).interact("Close");
                     return 1000;
                 }
+                BankUtils.goToClosestBank();
+                BankUtils.openBank();
+                BankUtils.depositInventory();
+                BankUtils.closeBank();
                 GenUtils.logOut();
+                break;
         }
         return 1000;
     }

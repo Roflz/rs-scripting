@@ -13,7 +13,7 @@ import java.util.List;
 @ScriptManifest(name = "Druidic Ritual", gameType = GameType.OS)
 public class main extends LoopScript {
 
-    public static String watDo = "Put meats in Cauldron";
+    public static String watDo = "";
 
     private final List<String> startingItemsList = Arrays.asList("Raw bear meat", "Raw rat meat", "Raw beef", "Raw chicken");
     private final List<Integer> startingQuantitiesList = Arrays.asList(1, 1, 1, 1);
@@ -187,8 +187,12 @@ public class main extends LoopScript {
                     cauldron.interact();
                     Time.sleep(3_000, () -> !getAPIContext().inventory().contains(item));
                 }
-                watDo = "Return to Sanfew";
-                return 1000;
+                if(getAPIContext().inventory().containsAll("Enchanted bear", "Enchanted rat", "Enchanted chicken", "Enchanted beef")) {
+                    watDo = "Return to Sanfew";
+                    return 1000;
+                }
+                break;
+
             case "Return to Sanfew":
                 if(!Constants.SANFEW.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.SANFEW.getCentralTile());
@@ -210,6 +214,9 @@ public class main extends LoopScript {
                 break;
 
             case "Return to Kaqemeex":
+                if(getAPIContext().widgets().get(153).isVisible()) {
+                    watDo = "Done";
+                }
                 if(!Constants.STONE_CIRCLE.contains(getAPIContext().localPlayer().getLocation())) {
                     getAPIContext().webWalking().walkTo(Constants.STONE_CIRCLE.getCentralTile());
                     return 1000;
@@ -220,8 +227,6 @@ public class main extends LoopScript {
                     } else {
                         if(getAPIContext().dialogues().canContinue()) {
                             getAPIContext().dialogues().selectContinue();
-                        } else {
-                            watDo = "Done";
                         }
                     }
                     return 1000;
